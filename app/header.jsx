@@ -1,11 +1,11 @@
 import Link from "next/link";
-import Image from "next/image"
+import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="bg-royal-purple border-b-4 border-black">
+    <header className="bg-royal-purple border-b-4 border-black py-4">
       <nav className="container mx-auto">
-        <ul className="list-none">
+        <ul className="flex justify-center space-x-8 items-center">
           <li>
             <Link href="/" className="text-royal-yellow">
               Hem
