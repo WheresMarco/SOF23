@@ -14,5 +14,12 @@ module.exports = {
       },
     },
   },
+  variants: {
+    extend: {
+        cursor: ['hover', 'focus', 'disabled'],
+        opacity: ['disabled'],
+        fontWeight: ['hover', 'focus'],
+    },
+  },
   plugins: [],
 }

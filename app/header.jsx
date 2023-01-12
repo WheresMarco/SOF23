@@ -3,21 +3,21 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="bg-royal-purple border-b-4 border-black py-4">
+    <header className="bg-wallpaper py-4">
       <nav className="container mx-auto">
-        <ul className="flex justify-center space-x-8 items-center">
+        <ul className="flex justify-center space-x-8 items-center font-bold">
           <li>
             <Link href="/" className="text-royal-yellow">
               Hem
             </Link>
           </li>
           <li>
-            <Link href="/" className="text-royal-yellow">
-              Festivalen
+            <Link href="/festivalen" className="text-royal-yellow">
+              Om Festivalen
             </Link>
           </li>
           <li>
-            <Link href="/" className="text-royal-yellow">
+            <Link href="/balkester" className="text-royal-yellow">
               Balkester
             </Link>
           </li>
@@ -27,17 +27,17 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/" className="text-royal-yellow">
+            <Link href="/fragor-svar" className="text-royal-yellow">
               Frågor & Svar
             </Link>
           </li>
           <li>
-            <Link href="/" className="text-royal-yellow">
+            <Link href="/jobba" className="text-royal-yellow">
               Jobba
             </Link>
           </li>
           <li>
-            <Link href="/" className="text-royal-yellow">
+            <Link href="/kontakta-oss" className="text-royal-yellow">
               Kontakt
             </Link>
           </li>

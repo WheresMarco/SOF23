@@ -1,6 +1,13 @@
+import { Merriweather } from "@next/font/google";
+
 import './globals.css'
 import Header from './header'
 import Footer from './footer'
+
+const merriweather = Merriweather({
+  subsets: ["latin"],
+  weight: ['300', '400', '700', '900'],
+});
 
 export default function RootLayout({ children }) {
   return (
@@ -10,7 +17,7 @@ export default function RootLayout({ children }) {
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>
+      <body className={`${merriweather.className} bg-[#FAFAF9]`}>
         <Header />
 
         {children}
