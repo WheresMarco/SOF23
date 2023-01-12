@@ -49,7 +49,7 @@ p {
 }
 
 a {
-  @apply font-bold hover:underline;
+  @apply font-bold hover:underline underline-offset-4;
 }
 
 .bg-wallpaper {

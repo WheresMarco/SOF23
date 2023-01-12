@@ -31,9 +31,9 @@ export default function Home() {
             <p className=" w-2/3 m-auto mb-2">
               <strong>18 till 21 maj</strong> är det dags för nästa upplaga av
               Sveriges största Studentorkesterfestival (SOF) - som dessutom
-              firar 50 år
-              <br /> 20 januari öppnar vi Balkesteranmälan, och den 1 maj släpps
-              biljetterna.
+              firar 50 år!
+              <br /> 20:e januari öppnar vi Balkesteranmälan, och den 1:a maj släpps
+              biljetterna till allmänheten.
             </p>
 
             <p>
