@@ -25,7 +25,9 @@ export default function Home() {
             height={300}
           />
           <div className="text-center w-1/2 pt-24 pb-32">
-            <h1 className={`${lora.className} text-9xl mb-8`}>Tagga SOF!</h1>
+            <h1 className={`${lora.className} text-9xl mb-8 font-semibold`}>
+              Tagga SOF!
+            </h1>
             <p className=" w-2/3 m-auto mb-2">
               <strong>18 till 21 maj</strong> är det dags för nästa upplaga av
               Sveriges största Studentorkesterfestival (SOF) - som dessutom
@@ -56,7 +58,7 @@ export default function Home() {
       <section className="container mx-auto grid grid-cols-2 space-x-8 py-16">
         <div>
           <h2
-            className={`${lora.className} text-3xl text-royal-yellow mb-2 bg-wallpaper p-3 shadow-md`}
+            className={`${lora.className} text-3xl text-royal-yellow mb-2 bg-wallpaper p-3 shadow-md rounded-sm font-semibold`}
           >
             Senaste nytt
           </h2>
@@ -66,21 +68,29 @@ export default function Home() {
           </Suspense>
 
           <h2
-            className={`${lora.className} text-3xl text-royal-yellow mb-2 bg-wallpaper p-3 shadow-md`}
+            className={`${lora.className} text-3xl text-royal-yellow mb-2 bg-wallpaper p-3 shadow-md rounded-sm font-semibold`}
           >
             Sociala Medier
           </h2>
-          <Link className="btn btn-purple mr-2" href="https://www.facebook.com/Studentorkesterfestivalen" target="blank">
+          <Link
+            className="btn btn-purple mr-2"
+            href="https://www.facebook.com/Studentorkesterfestivalen"
+            target="blank"
+          >
             Följ oss på Facebook
           </Link>
-          <Link className="btn btn-purple" href="https://www.instagram.com/studentorkesterfestivalen/" target="blank">
+          <Link
+            className="btn btn-purple"
+            href="https://www.instagram.com/studentorkesterfestivalen/"
+            target="blank"
+          >
             Följ oss på Instagram
           </Link>
         </div>
 
         <div>
           <h2
-            className={`${lora.className} text-3xl text-royal-yellow mb-2 bg-wallpaper p-3 shadow-md`}
+            className={`${lora.className} text-3xl text-royal-yellow mb-2 bg-wallpaper p-3 shadow-md rounded-sm font-semibold`}
           >
             Vad är SOF?
           </h2>
@@ -108,7 +118,7 @@ export default function Home() {
 
       <section className="container mx-auto mb-8">
         <h2
-          className={`${lora.className} text-3xl text-royal-yellow mb-2 bg-wallpaper p-3 shadow-md`}
+          className={`${lora.className} text-3xl text-royal-yellow mb-2 bg-wallpaper p-3 shadow-md rounded-sm font-semibold`}
         >
           Tidigare SOF
         </h2>
@@ -118,28 +128,28 @@ export default function Home() {
             width={640}
             height={640}
             alt="Bild från tidigare SOF"
-            className="w-full"
+            className="w-full rounded-sm"
           />
           <Image
             src="/history/2.jpg"
             width={640}
             height={640}
             alt="Bild från tidigare SOF"
-            className="w-full"
+            className="w-full rounded-sm"
           />
           <Image
             src="/history/3.jpg"
             width={640}
             height={640}
             alt="Bild från tidigare SOF"
-            className="w-full"
+            className="w-full rounded-sm"
           />
           <Image
             src="/history/4.jpg"
             width={640}
             height={640}
             alt="Bild från tidigare SOF"
-            className="w-full"
+            className="w-full rounded-sm"
           />
         </div>
         <p className="text-sm text-gray-600">Fotograf: Fredrik Söderquist</p>
