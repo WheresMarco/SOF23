@@ -24,20 +24,22 @@ export default function KontaktaOss() {
       </div>
 
       <div className="grid grid-cols-4 gap-4 mt-4 mb-8 container mx-auto">
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-
-        <Person />
-        <Person />
-        <Person />
-        <Person />
+        <Person image="/kommitte/gustav.jpg" name="Gustav Wenemark" title="SOF-General" email="general@sof23.se" />
+        <Person image="/kommitte/antonio.jpg" name="Antonio Fernandez" title="Ekonomi" email="ekonomi@sof23.se" />
+        <Person image="/kommitte/marco.jpg" name="Marco Hyyryläinen" title="PR-Biljett" email="pr-biljett@sof23.se" />
+        <Person image="/kommitte/august.jpg" name="August Goldhahn" title="Sponsorer" email="spons@sof23.se" />
+        <Person image="/kommitte/no.jpg" name="Molly Hilding Södergren" title="Personal" email="personal@sof23.se" />
+        <Person image="/kommitte/bjorn.jpg" name="Björn Lagerström" title="Personal" email="personal@sof23.se" />
+        <Person image="/kommitte/martin.jpg" name="Martin Nilsson" title="Område" email="omrade@sof23.se" />
+        <Person image="/kommitte/00.jpg" name="Hugo Asplund" title="Scen" email="scen@sof23.se" />
+        <Person image="/kommitte/anton.jpg" name="Anton Eldeborg Lundin" title="Mat" email="mat@sof23.se" />
+        <Person image="/kommitte/hugo.jpg" name="Hugo Winbladh" title="Servering" email="servering@sof23.se" />
+        <Person image="/kommitte/kasper.jpg" name="Kasper Johasson " title="Städ" email="stad@sof23.se" />
+        <Person image="/kommitte/no.jpg" name="Linnea " title="Balkester" email="balkester@sof23.se" />
+        <Person image="/kommitte/no.jpg" name="Hanna Begander" title="Balkester" email="balkester@sof23.se" />
+        <Person image="/kommitte/oscar.jpg" name="Oscar" title="Sociala Medier" email="webmaster@sof23.se" />
+        <Person image="/kommitte/ulrika.jpg" name="Ulrika Jadå" title="Merchandise" email="merch@sof23.se" />
+        <Person image="/kommitte/christina.jpg" name="Christina Erlander Klein" title="Merchandise & Design" email="design@sof23.se" />
       </div>
     </>
   );

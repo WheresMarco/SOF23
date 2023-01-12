@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 
 export default function Header() {
   let path = usePathname();
-  console.log(path);
+
   return (
     <header className="bg-wallpaper py-4">
       <nav className="container mx-auto">
