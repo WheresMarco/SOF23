@@ -1,5 +1,6 @@
 import { Merriweather } from "@next/font/google";
 
+import { AnalyticsWrapper } from './components/analytics';
 import './globals.css'
 import Header from './header'
 import Footer from './footer'
@@ -23,6 +24,8 @@ export default function RootLayout({ children }) {
         {children}
 
         <Footer />
+
+        <AnalyticsWrapper />
       </body>
     </html>
   )
