@@ -8,18 +8,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'royal-yellow': '#ffd73a',
-        'royal-red': '#c1525e',
-        'royal-purple': '#815585',
+        "royal-yellow": "#ffd73a",
+        "royal-red": "#c1525e",
+        "royal-purple": "#815585",
       },
     },
   },
   variants: {
     extend: {
-        cursor: ['hover', 'focus', 'disabled'],
-        opacity: ['disabled'],
-        fontWeight: ['hover', 'focus'],
+      cursor: ["hover", "focus", "disabled"],
+      opacity: ["disabled"],
+      fontWeight: ["hover", "focus"],
     },
   },
-  plugins: [],
-}
+};

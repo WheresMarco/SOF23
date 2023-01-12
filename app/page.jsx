@@ -55,74 +55,82 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container mx-auto grid grid-cols-2 space-x-8 py-16">
+      <section className="container mx-auto grid grid-cols-2 space-x-8 py-12">
         <div>
-          <h2
-            className={`${lora.className} text-3xl text-royal-yellow mb-2 bg-wallpaper p-3 shadow-md rounded-sm font-semibold`}
-          >
-            Senaste nytt
-          </h2>
+          <div className="shadow-md bg-white rounded-sm mb-4">
+            <h2
+              className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold`}
+            >
+              Senaste nytt
+            </h2>
 
-          <Suspense fallback={<Loading />}>
-            <Feed />
-          </Suspense>
+            <Suspense fallback={<Loading />} className="px-2 py-2">
+              <Feed />
+            </Suspense>
+          </div>
 
-          <h2
-            className={`${lora.className} text-3xl text-royal-yellow mb-2 bg-wallpaper p-3 shadow-md rounded-sm font-semibold`}
-          >
-            Sociala Medier
-          </h2>
-          <Link
-            className="btn btn-purple mr-2"
-            href="https://www.facebook.com/Studentorkesterfestivalen"
-            target="blank"
-          >
-            Följ oss på Facebook
-          </Link>
-          <Link
-            className="btn btn-purple"
-            href="https://www.instagram.com/studentorkesterfestivalen/"
-            target="blank"
-          >
-            Följ oss på Instagram
-          </Link>
+          <div className="shadow-md bg-white rounded-sm">
+            <h2
+              className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold`}
+            >
+              Sociala Medier
+            </h2>
+            <div className="px-2 py-2">
+              <Link
+                className="btn btn-purple mr-2"
+                href="https://www.facebook.com/Studentorkesterfestivalen"
+                target="blank"
+              >
+                Följ oss på Facebook
+              </Link>
+              <Link
+                className="btn btn-purple"
+                href="https://www.instagram.com/studentorkesterfestivalen/"
+                target="blank"
+              >
+                Följ oss på Instagram
+              </Link>
+            </div>
+          </div>
         </div>
 
-        <div>
+        <div className="shadow-md bg-white rounded-sm">
           <h2
-            className={`${lora.className} text-3xl text-royal-yellow mb-2 bg-wallpaper p-3 shadow-md rounded-sm font-semibold`}
+            className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold`}
           >
             Vad är SOF?
           </h2>
-          <p>
-            Både SOF och STORK står för “Studentorkesterfestivalen” och är det
-            som äger rum i maj varje år och som alla studentorkestrar- och
-            baletter längtar efter. Ojämna år hålls den i Linköping under namnet
-            SOF, och jämna år i Uppsala men kallas då STORK. Under dagarna tre
-            (eller möjligen fyra) spelar, dansar, festar, kårtegar och hänger vi
-            med varandra.
-          </p>
-          <p>
-            I år kommer festivalen att pågå mellan torsdagen den 18:e maj till
-            och med söndagen 21:a maj. Vi kommer att vara på plats i Kårallen i
-            Linköping, med lite utstick på stan för stadspelningar.
-          </p>
+          <div className="px-4 py-2">
+            <p>
+              Både SOF och STORK står för “Studentorkesterfestivalen” och är det
+              som äger rum i maj varje år och som alla studentorkestrar- och
+              baletter längtar efter. Ojämna år hålls den i Linköping under
+              namnet SOF, och jämna år i Uppsala men kallas då STORK. Under
+              dagarna tre (eller möjligen fyra) spelar, dansar, festar, kårtegar
+              och hänger vi med varandra.
+            </p>
+            <p>
+              I år kommer festivalen att pågå mellan torsdagen den 18:e maj till
+              och med söndagen 21:a maj. Vi kommer att vara på plats i Kårallen
+              i Linköping, med lite utstick på stan för stadspelningar.
+            </p>
 
-          <p>
-            <Link className="btn btn-purple" href="/fragor-svar">
-              Fler frågor?
-            </Link>
-          </p>
+            <p>
+              <Link className="btn btn-purple" href="/fragor-svar">
+                Några frågor?
+              </Link>
+            </p>
+          </div>
         </div>
       </section>
 
-      <section className="container mx-auto mb-8">
+      <section className="container mx-auto mb-8 shadow-md bg-white rounded-sm">
         <h2
-          className={`${lora.className} text-3xl text-royal-yellow mb-2 bg-wallpaper p-3 shadow-md rounded-sm font-semibold`}
+          className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold mb-4`}
         >
           Tidigare SOF
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-4">
           <Image
             src="/history/1.jpg"
             width={640}
@@ -152,7 +160,9 @@ export default function Home() {
             className="w-full rounded-sm"
           />
         </div>
-        <p className="text-sm text-gray-600">Fotograf: Fredrik Söderquist</p>
+        <p className="text-sm text-gray-600 px-4 py-2">
+          Fotograf: Fredrik Söderquist
+        </p>
       </section>
     </>
   );
