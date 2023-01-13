@@ -8,8 +8,8 @@ const lora = Lora({
 
 export default function KontaktaOss() {
   return (
-    <>
-      <div className="container mx-auto shadow-md bg-white rounded-sm mt-8">
+    <div className="px-2 md:px-0">
+      <div className="md:container mx-auto shadow-md bg-white rounded-sm mt-4 md:mt-8">
         <h2
           className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold mb-2`}
         >
@@ -23,7 +23,7 @@ export default function KontaktaOss() {
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-4 mt-4 mb-8 container mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4 mb-8 container mx-auto">
         <Person image="/kommitte/gustav.jpg" name="Gustav Wenemark" title="SOF-General" email="general@sof23.se" />
         <Person image="/kommitte/antonio.jpg" name="Antonio Fernandez" title="Ekonomi" email="ekonomi@sof23.se" />
         <Person image="/kommitte/marco.jpg" name="Marco Hyyryläinen" title="PR-Biljett" email="pr-biljett@sof23.se" />
@@ -41,6 +41,6 @@ export default function KontaktaOss() {
         <Person image="/kommitte/ulrika.jpg" name="Ulrika Jadå" title="Merchandise" email="merch@sof23.se" />
         <Person image="/kommitte/christina.jpg" name="Christina Erlander Klein" title="Merchandise & Design" email="design@sof23.se" />
       </div>
-    </>
+    </div>
   );
 }
