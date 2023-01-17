@@ -54,7 +54,7 @@ export default function Home() {
 
       <div className="px-2 md:px-0">
         <section className="md:container md:mx-auto md:grid md:grid-cols-2 md:space-x-8 py-4 md:py-12">
-          <div className="mb-4 md:mb-0">
+          <div>
             <div className="shadow-md bg-white rounded-sm mb-4">
               <h2
                 className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold flex justify-between items-center`}
@@ -117,30 +117,6 @@ export default function Home() {
                 <p><Link href="https://www.facebook.com/Studentorkesterfestivalen/posts/705512217761167" target="blank">Kommentera och Like:a</Link></p>
               </div>
             </div>
-
-            <div className="shadow-md bg-white rounded-sm">
-              <h2
-                className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold`}
-              >
-                Sociala Medier
-              </h2>
-              <div className="px-2 py-2">
-                <Link
-                  className="btn btn-purple mr-2"
-                  href="https://www.facebook.com/Studentorkesterfestivalen"
-                  target="blank"
-                >
-                  Följ oss på Facebook
-                </Link>
-                <Link
-                  className="btn btn-purple"
-                  href="https://www.instagram.com/studentorkesterfestivalen/"
-                  target="blank"
-                >
-                  Följ oss på Instagram
-                </Link>
-              </div>
-            </div>
           </div>
 
           <div>
@@ -171,6 +147,30 @@ export default function Home() {
                     Några frågor?
                   </Link>
                 </p>
+              </div>
+            </div>
+
+            <div className="shadow-md bg-white rounded-sm mt-4">
+              <h2
+                className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold`}
+              >
+                Sociala Medier
+              </h2>
+              <div className="px-2 py-2">
+                <Link
+                  className="btn btn-purple mr-2"
+                  href="https://www.facebook.com/Studentorkesterfestivalen"
+                  target="blank"
+                >
+                  Följ oss på Facebook
+                </Link>
+                <Link
+                  className="btn btn-purple"
+                  href="https://www.instagram.com/studentorkesterfestivalen/"
+                  target="blank"
+                >
+                  Följ oss på Instagram
+                </Link>
               </div>
             </div>
           </div>
