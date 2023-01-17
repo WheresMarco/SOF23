@@ -25,17 +25,16 @@ export default function Home() {
             height={300}
             className="hidden xl:block"
           />
-          <div className="text-center xl:w-1/2 py-8 md:py-24 xl:pb-32">
+          <div className="text-center xl:w-1/2 pb-8 pt-4 md:py-24 xl:pb-32">
             <h1
-              className={`${lora.className} text-6xl xl:text-9xl mb-8 font-semibold`}
+              className={`${lora.className} text-6xl xl:text-9xl mb-4 md:mb-8 font-semibold`}
             >
               Tagga SOF!
             </h1>
-            <p className=" w-2/3 m-auto mb-2">
+            <p className="px-4 md:w-2/3 m-auto mb-2">
               <strong>18 till 21 maj</strong> är det dags för nästa upplaga av
               Sveriges största Studentorkesterfestival (SOF) - som dessutom
-              firar 50 år!
-              <br /> 20:e januari öppnar vi Balkesteranmälan, och den 1:a maj
+              firar 50 år! 20:e januari öppnar vi Balkesteranmälan, och den 1:a maj
               släpps biljetterna till allmänheten.
             </p>
 
