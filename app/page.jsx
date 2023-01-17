@@ -25,7 +25,7 @@ export default function Home() {
             height={300}
             className="hidden lg:block"
           />
-          <div className="text-center md:w-1/2 py-12 md:py-24 lg:pb-32">
+          <div className="text-center md:w-1/2 py-8 md:py-24 lg:pb-32">
             <h1
               className={`${lora.className} text-6xl lg:text-9xl mb-8 font-semibold`}
             >
