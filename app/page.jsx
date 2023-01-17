@@ -40,7 +40,7 @@ export default function Home() {
 
             <p>
               <Link className="btn btn-yellow mr-2" href="/balkester">
-                Balkesteranmälan
+                Balkesterinfo
               </Link>
 
               <Link className="btn btn-yellow" href="/kontakta-oss">
