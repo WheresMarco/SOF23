@@ -52,24 +52,24 @@ export default function Header() {
               : "hidden md:flex flex-col mt-4 border-y border-royal-yellow bg-[#815585] md:bg-transparent md:border-none md:flex-row md:justify-center md:space-x-8 md:items-center font-extrabold"
           }
         >
-          <li className="p-4 border-b border-royal-yellow md:p-0 md:border-none">
-            <Link href="/" className="text-royal-yellow" onClick={() => toggleMenu(false)}>
+          <li className="border-b border-royal-yellow md:p-0 md:border-none">
+            <Link href="/" className="text-royal-yellow block p-4" onClick={() => toggleMenu(false)}>
               Hem
             </Link>
           </li>
           <li
             className={
               path == "/festivalen"
-                ? "p-4 bg-royal-yellow md:p-0 md:bg-transparent md:border-none"
-                : "p-4 border-b border-royal-yellow md:p-0 md:border-none"
+                ? "bg-royal-yellow md:p-0 md:bg-transparent md:border-none"
+                : "border-b border-royal-yellow md:p-0 md:border-none"
             }
           >
             <Link
               href="/festivalen"
               className={
                 path == "/festivalen"
-                  ? "text-royal-red md:text-royal-yellow md:underline md:underline-offset-4"
-                  : "text-royal-yellow"
+                  ? "block p-4 text-royal-red md:text-royal-yellow md:underline md:underline-offset-4"
+                  : "block p-4 text-royal-yellow"
               }
               onClick={() => toggleMenu(false)}
             >
@@ -79,16 +79,16 @@ export default function Header() {
           <li
             className={
               path == "/balkester"
-                ? "p-4 bg-royal-yellow md:p-0 md:bg-transparent md:border-none"
-                : "p-4 border-b border-royal-yellow md:p-0 md:border-none"
+                ? "bg-royal-yellow md:p-0 md:bg-transparent md:border-none"
+                : "border-b border-royal-yellow md:p-0 md:border-none"
             }
           >
             <Link
               href="/balkester"
               className={
                 path == "/balkester"
-                  ? "text-royal-red md:text-royal-yellow md:underline md:underline-offset-4"
-                  : "text-royal-yellow"
+                  ? "block p-4 text-royal-red md:text-royal-yellow md:underline md:underline-offset-4"
+                  : "block p-4 text-royal-yellow"
               }
               onClick={() => toggleMenu(false)}
             >
@@ -103,16 +103,16 @@ export default function Header() {
           <li
             className={
               path == "/fragor-svar"
-                ? "p-4 bg-royal-yellow md:p-0 md:bg-transparent md:border-none"
-                : "p-4 border-b border-royal-yellow md:p-0 md:border-none"
+                ? "bg-royal-yellow md:p-0 md:bg-transparent md:border-none"
+                : "border-b border-royal-yellow md:p-0 md:border-none"
             }
           >
             <Link
               href="/fragor-svar"
               className={
                 path == "/fragor-svar"
-                  ? "text-royal-red md:text-royal-yellow md:underline md:underline-offset-4"
-                  : "text-royal-yellow"
+                  ? "block p-4 text-royal-red md:text-royal-yellow md:underline md:underline-offset-4"
+                  : "block p-4 text-royal-yellow"
               }
               onClick={() => toggleMenu(false)}
             >
@@ -122,16 +122,16 @@ export default function Header() {
           <li
             className={
               path == "/jobba"
-                ? "p-4 bg-royal-yellow md:p-0 md:bg-transparent md:border-none"
-                : "p-4 border-b border-royal-yellow md:p-0 md:border-none"
+                ? "bg-royal-yellow md:p-0 md:bg-transparent md:border-none"
+                : "border-b border-royal-yellow md:p-0 md:border-none"
             }
           >
             <Link
               href="/jobba"
               className={
                 path == "/jobba"
-                  ? "text-royal-red md:text-royal-yellow md:underline md:underline-offset-4"
-                  : "text-royal-yellow"
+                  ? "block p-4 text-royal-red md:text-royal-yellow md:underline md:underline-offset-4"
+                  : "block p-4 text-royal-yellow"
               }
               onClick={() => toggleMenu(false)}
             >
@@ -141,16 +141,16 @@ export default function Header() {
           <li
             className={
               path == "/kontakta-oss"
-                ? "p-4 bg-royal-yellow md:p-0 md:bg-transparent md:border-none"
-                : "p-4 border-b border-royal-yellow md:p-0 md:border-none"
+                ? "bg-royal-yellow md:p-0 md:bg-transparent md:border-none"
+                : "border-b border-royal-yellow md:p-0 md:border-none"
             }
           >
             <Link
               href="/kontakta-oss"
               className={
                 path == "/kontakta-oss"
-                  ? "text-royal-red md:text-royal-yellow md:underline md:underline-offset-4"
-                  : "text-royal-yellow"
+                  ? "block p-4 text-royal-red md:text-royal-yellow md:underline md:underline-offset-4"
+                  : "block p-4 text-royal-yellow"
               }
               onClick={() => toggleMenu(false)}
             >
