@@ -114,7 +114,28 @@ export default function Home() {
                   Det var allt för denna gång! Vi hörs snart igen, och tagga
                   SOF23!! 🤩
                 </p>
-                <p><Link href="https://www.facebook.com/Studentorkesterfestivalen/posts/705512217761167" target="blank">Kommentera och Like:a</Link></p>
+                <p>
+                  <Link
+                    href="https://www.facebook.com/Studentorkesterfestivalen/posts/705512217761167"
+                    target="blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-5 h-5 inline mr-1 relative -top-0.5"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                      />
+                    </svg>
+                    Se inlägget på Facebook
+                  </Link>
+                </p>
               </div>
             </div>
           </div>
@@ -162,6 +183,20 @@ export default function Home() {
                   href="https://www.facebook.com/Studentorkesterfestivalen"
                   target="blank"
                 >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-5 h-5 inline mr-1 relative -top-0.5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                    />
+                  </svg>
                   Följ oss på Facebook
                 </Link>
                 <Link
@@ -169,6 +204,20 @@ export default function Home() {
                   href="https://www.instagram.com/studentorkesterfestivalen/"
                   target="blank"
                 >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-5 h-5 inline mr-1 relative -top-0.5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                    />
+                  </svg>
                   Följ oss på Instagram
                 </Link>
               </div>
