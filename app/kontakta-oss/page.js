@@ -26,25 +26,25 @@ export default function KontaktaOss() {
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4 mb-8 container mx-auto">
         <Person
-          image="/kommitte/gustav.jpg"
+          image="/kommitte/gustav.webp"
           name="Gustav Wenemark"
           title="SOF-General"
           email="general@sof23.se"
         />
         <Person
-          image="/kommitte/antonio.jpg"
+          image="/kommitte/antonio.webp"
           name="Antonio Fernandez"
           title="Ekonomi"
           email="ekonomi@sof23.se"
         />
         <Person
-          image="/kommitte/marco.jpg"
+          image="/kommitte/marco.webp"
           name="Marco Hyyryläinen"
           title="PR-Biljett"
           email="pr-biljett@sof23.se"
         />
         <Person
-          image="/kommitte/august.jpg"
+          image="/kommitte/august.webp"
           name="August Goldhahn"
           title="Sponsorer"
           email="spons@sof23.se"
@@ -62,13 +62,13 @@ export default function KontaktaOss() {
           email="personal@sof23.se"
         />
         <Person
-          image="/kommitte/bjorn.jpg"
+          image="/kommitte/bjorn.webp"
           name="Björn Lagerström"
           title="Personal"
           email="personal@sof23.se"
         />
         <Person
-          image="/kommitte/martin.jpg"
+          image="/kommitte/martin.webp"
           name="Martin Nilsson"
           title="Område"
           email="omrade@sof23.se"
@@ -80,13 +80,13 @@ export default function KontaktaOss() {
           email="scen@sof23.se"
         />
         <Person
-          image="/kommitte/anton.jpg"
+          image="/kommitte/anton.webp"
           name="Anton Eldeborg Lundin"
           title="Mat"
           email="mat@sof23.se"
         />
         <Person
-          image="/kommitte/hugo.jpg"
+          image="/kommitte/hugo.webp"
           name="Hugo Winbladh"
           title="Servering"
           email="servering@sof23.se"
@@ -98,14 +98,14 @@ export default function KontaktaOss() {
           email="sov@sof23.se"
         />
         <Person
-          image="/kommitte/kasper.jpg"
+          image="/kommitte/kasper.webp"
           name="Kasper Johasson "
           title="Städ"
           email="stad@sof23.se"
         />
         <Person
           image="/kommitte/no.jpg"
-          name="Linnea"
+          name="Linnea Östberg"
           title="Balkester"
           email="balkester@sof23.se"
         />
@@ -116,19 +116,19 @@ export default function KontaktaOss() {
           email="balkester@sof23.se"
         />
         <Person
-          image="/kommitte/oscar.jpg"
-          name="Oscar"
+          image="/kommitte/oscar.webp"
+          name="Oscar Dwyer"
           title="Sociala Medier"
           email="webmaster@sof23.se"
         />
         <Person
-          image="/kommitte/ulrika.jpg"
+          image="/kommitte/ulrika.webp"
           name="Ulrika Jadå"
           title="Merchandise"
           email="merch@sof23.se"
         />
         <Person
-          image="/kommitte/christina.jpg"
+          image="/kommitte/christina.webp"
           name="Christina Erlander Klein"
           title="Merchandise & Design"
           email="design@sof23.se"
