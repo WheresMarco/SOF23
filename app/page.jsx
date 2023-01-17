@@ -179,7 +179,7 @@ export default function Home() {
               </h2>
               <div className="px-2 py-2">
                 <Link
-                  className="btn btn-purple mr-2"
+                  className="btn btn-purple mr-2 mb-2 md:mb-0"
                   href="https://www.facebook.com/Studentorkesterfestivalen"
                   target="blank"
                 >

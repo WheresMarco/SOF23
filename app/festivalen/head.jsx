@@ -5,24 +5,23 @@ export default function Head() {
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="description"
-        content="18 till 21 maj är det dags för nästa upplaga av Sveriges största Studentorkesterfestival (SOF) - som dessutom firar 50 år!"
+        content="Vi är stolta över att få presentera SOF23 - SOF 50 år! Detta råkar
+            sammanfalla med hur länge Sveriges nuvarande kung har regerat, och
+            vi har valt ett lite mer kungligt tema för att fira vår favvo-putte.
+            Kung-Putten ser fram emot att träffa er alla!"
       />
-      <link rel="icon" href="/favicon.ico" />
       <link rel="shortcut icon" type="image/png" href="/shortcut.jpg"></link>
 
       <meta property="og:type" content="website" />
-      <meta
-        property="og:title"
-        content="SOF23 - Studentorkesterfestivalen"
-      />
+      <meta property="og:title" content="SOF23 - Studentorkesterfestivalen" />
       <meta
         property="og:description"
-        content="18 till 21 maj är det dags för nästa upplaga av Sveriges största Studentorkesterfestival (SOF) - som dessutom firar 50 år!"
+        content="Vi är stolta över att få presentera SOF23 - SOF 50 år! Detta råkar
+            sammanfalla med hur länge Sveriges nuvarande kung har regerat, och
+            vi har valt ett lite mer kungligt tema för att fira vår favvo-putte.
+            Kung-Putten ser fram emot att träffa er alla!"
       />
-      <meta
-        property="og:image"
-        content="/share.jpg"
-      />
+      <meta property="og:image" content="/share.jpg" />
     </>
   );
 }
