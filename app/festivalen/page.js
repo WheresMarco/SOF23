@@ -1,4 +1,5 @@
 import { Lora } from "@next/font/google";
+import Image from "next/image";
 
 const lora = Lora({
   subsets: ["latin"],
@@ -15,86 +16,73 @@ export default function Festivalen() {
           Om Festivalen
         </h2>
         <div className="px-4 py-2">
+          <Image
+            src="/history/3.jpg"
+            width={300}
+            height={300}
+            alt="Bild från tidigare SOF"
+            className="hidden md:block rounded-sm float-right pl-4 pb-4"
+          />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non autem
-            hoc: igitur ne illud quidem. Quid est enim aliud esse versutum? Quod
-            non faceret, si in voluptate summum bonum poneret.{" "}
-            <b>Nihil sane.</b> <i>Quis istud possit, inquit, negare?</i>{" "}
-            <i>Duo Reges: constructio interrete.</i>{" "}
-            <a href="http://loripsum.net/" target="_blank">
-              Sit hoc ultimum bonorum, quod nunc a me defenditur;
-            </a>{" "}
+            Vi är stolta över att få presentera SOF23 - SOF 50 år! Detta råkar
+            sammanfalla med hur länge Sveriges nuvarande kung har regerat, och
+            vi har valt ett lite mer kungligt tema för att fira vår favvo-putte.
+            Kung-Putten ser fram emot att träffa er alla!{" "}
           </p>
 
           <p>
-            Multoque hoc melius nos veriusque quam Stoici. Videamus animi
-            partes, quarum est conspectus illustrior; Graccho, eius fere,
-            aequalí? Non igitur bene. Maximus dolor, inquit, brevis est.{" "}
-            <a href="http://loripsum.net/" target="_blank">
-              Sed ego in hoc resisto;
-            </a>{" "}
+            SOF23 kommer att äga rum på kårhuset Kårallen i Linköping, från den
+            18:e maj till den 21:a maj. Under den tiden ser vi stort fram emot
+            att få dansa, spela, sjunga och festa tillsammans med er! Vi siktar
+            också på att hålla stadsspelningar ute i Linköping stad för att
+            verkligen göra SOF till den folkfest som vi känner det som! Sovsalen
+            planeras som vanligt att utgöras av Campushallen i närheten av
+            Kårallen.{" "}
+          </p>
+
+          <h3 className={`${lora.className} text-xl font-semibold`}>
+            Historik
+          </h3>
+          <p>
+            Både SOF och STORK står för “Studentorkesterfestivalen” och är det
+            som äger rum i maj varje år och som alla studentorkestrar- och
+            baletter längtar efter. Ojämna år hålls den i Linköping under namnet
+            SOF, och jämna år i Uppsala men kallas då STORK. Under dagarna tre
+            (eller möjligen fyra) spelar, dansar, festar, kårtegar och hänger vi
+            med varandra. Den som har varit med 10 gånger i rad, eller totalt 25
+            gånger, får dessutom en fin utmärkelse! På vår sida festivalhistoria
+            kan du läsa mer om forna festivaler.
+          </p>
+
+          <h3 className={`${lora.className} text-xl font-semibold`}>
+            SOF vs STORK, vad är skillnaden?
+          </h3>
+          <p>
+            STORK brukar hållas på en eller flera nationer i Uppsala, och är
+            mest en inomhusfestival med inslag av torgspelningar. STORK har även
+            en kårtege genom staden, där enbart balkestrarna deltar i.
+            Festivalen är ganska intern, dvs 99 % av deltagarna är/har varit med
+            i en studentorkester/-balett. STORK brukar anordnas av en
+            projektgrupp beståendes av studentorkestermusiker/-balettor i
+            varierat antal.
           </p>
 
           <p>
-            Sed ad illum redeo. <b>Quid iudicant sensus?</b> Sin aliud quid
-            voles, postea. Quibusnam praeteritis?{" "}
+            SOF hålls utomhus i Linköping vid ett festivalområde på
+            universitetet och innehåller förutom studentorkestrar/-baletter
+            också band, annan underhållning och lite av varje. Till SOF så
+            tillhör en kårtege där studenter vid Linköpings universitet tävlar i
+            grupper om att bygga temaenliga bidrag att placera uppe på
+            lastbilsflak. Kårtegen i Linköping blir en folkfest som oftast drar
+            till sig runt 50.000 åskådare för att se på studentbidragen rulla
+            fram och balkestrarna marscherar genom staden. Publikmässigt är SOF
+            en större festival än STORK och är till för balkestrarna, studenter
+            vid Linköping universitet såväl som allmänheten. SOF anordnas av
+            LinTek (teknologernas studentkår vid Linköpings universitet) genom
+            en egen projetkgrupp på 50 personer med mellan 100-200 funktionärer.
           </p>
 
-          <p>
-            Sed residamus, inquit, si placet. Respondent extrema primis, media
-            utrisque, omnia omnibus. Videmus igitur ut conquiescere ne infantes
-            quidem possint. Quaerimus enim finem bonorum. Stoici scilicet.
-            Idemne, quod iucunde? Ita ne hoc quidem modo paria peccata sunt. At,
-            illa, ut vobis placet, partem quandam tuetur, reliquam deserit.{" "}
-          </p>
-
-          <ul>
-            <li>Teneo, inquit, finem illi videri nihil dolere.</li>
-            <li>
-              Theophrastus mediocriterne delectat, cum tractat locos ab
-              Aristotele ante tractatos?
-            </li>
-            <li>Tum mihi Piso: Quid ergo?</li>
-            <li>
-              Placet igitur tibi, Cato, cum res sumpseris non concessas, ex
-              illis efficere, quod velis?
-            </li>
-            <li>
-              Praeclare Laelius, et recte sofñw, illudque vere: O Publi, o
-              gurges, Galloni! es homo miser, inquit.
-            </li>
-            <li>
-              Quod cum accidisset ut alter alterum necopinato videremus,
-              surrexit statim.
-            </li>
-          </ul>
-
-          <p>
-            <b>Quo tandem modo?</b> Sed ne, dum huic obsequor, vobis molestus
-            sim. Quae diligentissime contra Aristonem dicuntur a Chryippo.
-            Itaque his sapiens semper vacabit.{" "}
-          </p>
-
-          <p>
-            Sed haec omittamus; Ne in odium veniam, si amicum destitero tueri.
-            Satis est ad hoc responsum. Age, inquies, ista parva sunt.{" "}
-          </p>
-
-          <p>
-            Hunc vos beatum; Si longus, levis. Inde igitur, inquit, ordiendum
-            est. Quare conare, quaeso. Summae mihi videtur inscitiae.{" "}
-            <a href="http://loripsum.net/" target="_blank">
-              Is es profecto tu.
-            </a>{" "}
-            Aperiendum est igitur, quid sit voluptas;{" "}
-          </p>
-
-          <p>
-            Illud non continuo, ut aeque incontentae. Cur post Tarentum ad
-            Archytam? <b>Cave putes quicquam esse verius.</b>{" "}
-            <i>Nihilo magis.</i> Facillimum id quidem est, inquam. Praeclarae
-            mortes sunt imperatoriae;{" "}
-          </p>
+          <p className="italic">Senast uppdaterad 17 januari.</p>
         </div>
       </div>
     </div>

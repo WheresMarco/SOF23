@@ -1,4 +1,6 @@
 import { Lora } from "@next/font/google";
+import Image from "next/image";
+import Link from "next/link";
 
 const lora = Lora({
   subsets: ["latin"],
@@ -15,86 +17,56 @@ export default function Balkester() {
           Balkester
         </h2>
         <div className="px-4 py-2">
+          <Image
+            src="/history/4.jpg"
+            width={300}
+            height={300}
+            alt="Bild från tidigare SOF"
+            className="hidden md:block rounded-sm float-right pl-4 pb-4"
+          />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non autem
-            hoc: igitur ne illud quidem. Quid est enim aliud esse versutum? Quod
-            non faceret, si in voluptate summum bonum poneret.{" "}
-            <b>Nihil sane.</b> <i>Quis istud possit, inquit, negare?</i>{" "}
-            <i>Duo Reges: constructio interrete.</i>{" "}
-            <a href="http://loripsum.net/" target="_blank">
-              Sit hoc ultimum bonorum, quod nunc a me defenditur;
-            </a>{" "}
+            Så roligt att er Balkester vill gå på SOF23! I år kommer festivalen
+            att pågå mellan torsdagen den 18:e maj till och med söndagen 21:a
+            maj. Det kommer även finnas möjlighet till en familjespelning på
+            söndagen om man vill dra sig lite från att lämna härliga Linköping.{" "}
           </p>
 
           <p>
-            Multoque hoc melius nos veriusque quam Stoici. Videamus animi
-            partes, quarum est conspectus illustrior; Graccho, eius fere,
-            aequalí? Non igitur bene. Maximus dolor, inquit, brevis est.{" "}
-            <a href="http://loripsum.net/" target="_blank">
-              Sed ego in hoc resisto;
-            </a>{" "}
+            Vi kommer att vara på plats i Kårallen i Linköping, med lite utstick
+            på stan för stadspelningar om er Balkester vill det. Eventuellt
+            kommer det att bli en kortege i år, anmäl gärna intresse så
+            återkommer vi om det blir av.
           </p>
 
           <p>
-            Sed ad illum redeo. <b>Quid iudicant sensus?</b> Sin aliud quid
-            voles, postea. Quibusnam praeteritis?{" "}
+            Den 20:e januari kommer två formulär att skickas ut till alla
+            Balkesterledare som är med i Riks-SMASK. Ena formuläret är
+            deltagaranmälan och denna ska skickas vidare till era medlemmar så
+            dom kan anmäla sig för att gå på SOF. Det andra formuläret är för er
+            Balkester och den ska fyllas i av Balkesterledaren.
           </p>
 
           <p>
-            Sed residamus, inquit, si placet. Respondent extrema primis, media
-            utrisque, omnia omnibus. Videmus igitur ut conquiescere ne infantes
-            quidem possint. Quaerimus enim finem bonorum. Stoici scilicet.
-            Idemne, quod iucunde? Ita ne hoc quidem modo paria peccata sunt. At,
-            illa, ut vobis placet, partem quandam tuetur, reliquam deserit.{" "}
-          </p>
-
-          <ul>
-            <li>Teneo, inquit, finem illi videri nihil dolere.</li>
-            <li>
-              Theophrastus mediocriterne delectat, cum tractat locos ab
-              Aristotele ante tractatos?
-            </li>
-            <li>Tum mihi Piso: Quid ergo?</li>
-            <li>
-              Placet igitur tibi, Cato, cum res sumpseris non concessas, ex
-              illis efficere, quod velis?
-            </li>
-            <li>
-              Praeclare Laelius, et recte sofñw, illudque vere: O Publi, o
-              gurges, Galloni! es homo miser, inquit.
-            </li>
-            <li>
-              Quod cum accidisset ut alter alterum necopinato videremus,
-              surrexit statim.
-            </li>
-          </ul>
-
-          <p>
-            <b>Quo tandem modo?</b> Sed ne, dum huic obsequor, vobis molestus
-            sim. Quae diligentissime contra Aristonem dicuntur a Chryippo.
-            Itaque his sapiens semper vacabit.{" "}
+            Sista datum för att anmäla sig för att ha en garanterad plats som
+            Balkester och att kunna beställa merch är 20:e mars. Efter det kan
+            man anmäla sig i mån av plats. Viss merch kommer att gå att köpa på
+            plats, men vi kommer ha begränsat antal av dom. Dagens tips är att
+            köpa många klistermärken!
           </p>
 
           <p>
-            Sed haec omittamus; Ne in odium veniam, si amicum destitero tueri.
-            Satis est ad hoc responsum. Age, inquies, ista parva sunt.{" "}
+            Övrig information kommer att komma ut från er Balkesterledare. Mer
+            allmän information kommer att publiceras på den här sidan, Facebook,
+            och Instagram.
           </p>
 
           <p>
-            Hunc vos beatum; Si longus, levis. Inde igitur, inquit, ordiendum
-            est. Quare conare, quaeso. Summae mihi videtur inscitiae.{" "}
-            <a href="http://loripsum.net/" target="_blank">
-              Is es profecto tu.
-            </a>{" "}
-            Aperiendum est igitur, quid sit voluptas;{" "}
+            Glasklart? Perfekt! Men vid eventuella frågor hänvisar vi till
+            respektive kommitéemedlem. Kontaktuppgifter till dom hittar ni under{" "}
+            <Link href="/kontakta-oss">Kontakta oss</Link>.
           </p>
 
-          <p>
-            Illud non continuo, ut aeque incontentae. Cur post Tarentum ad
-            Archytam? <b>Cave putes quicquam esse verius.</b>{" "}
-            <i>Nihilo magis.</i> Facillimum id quidem est, inquam. Praeclarae
-            mortes sunt imperatoriae;{" "}
-          </p>
+          <p className="italic">Senast uppdaterad 17 januari.</p>
         </div>
       </div>
     </div>

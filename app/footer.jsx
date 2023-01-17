@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="bg-gray-400 h-32"></div>
         </div> */}
 
-        <p className="text-center">SOF23 arrangeras av <Link href="https://rikssmask.se" target="blank">Riks-SMASK</Link>.<br /><Link href="/integritetspolicy">Integritetspolicy</Link> - <Link href="/kontakta-oss">Kontakta oss</Link>.</p>
+        <p className="text-center">Studentorkesterfestivalen 2023 (SOF23) arrangeras av <Link href="https://rikssmask.se" target="blank">Riks-SMASK</Link>.<br /><Link href="/integritetspolicy">Integritetspolicy</Link> - <Link href="/kontakta-oss">Kontakta oss</Link>.</p>
       </div>
     </footer>
   );

@@ -15,85 +15,92 @@ export default function Integritetspolicy() {
           Integritetspolicy
         </h2>
         <div className="px-4 py-2">
+          <h3 className={`${lora.className} text-xl font-semibold`}>
+            1. Insamling av information
+          </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non autem
-            hoc: igitur ne illud quidem. Quid est enim aliud esse versutum? Quod
-            non faceret, si in voluptate summum bonum poneret.{" "}
-            <b>Nihil sane.</b> <i>Quis istud possit, inquit, negare?</i>{" "}
-            <i>Duo Reges: constructio interrete.</i>{" "}
-            <a href="http://loripsum.net/" target="_blank">
-              Sit hoc ultimum bonorum, quod nunc a me defenditur;
-            </a>{" "}
+            Vi samlar in och sparar information från din dator och webbläsare,
+            inklusive din IP-adress, uppgifter om programvara och hårdvara och
+            den begärda sidan.
           </p>
 
           <p>
-            Multoque hoc melius nos veriusque quam Stoici. Videamus animi
-            partes, quarum est conspectus illustrior; Graccho, eius fere,
-            aequalí? Non igitur bene. Maximus dolor, inquit, brevis est.{" "}
-            <a href="http://loripsum.net/" target="_blank">
-              Sed ego in hoc resisto;
-            </a>{" "}
+            På webbplats hanteras följande personuppgifter: Namn och
+            e-postadress
           </p>
 
           <p>
-            Sed ad illum redeo. <b>Quid iudicant sensus?</b> Sin aliud quid
-            voles, postea. Quibusnam praeteritis?{" "}
+            Om du kontaktar oss behöver du ange kontaktuppgifter för att kunna
+            få svar tillbaka. Dessa används inte på något annat sätt än för
+            detta ändamål IP-adress, uppgifter om programvara och hårdvara och
+            den begärda sidan.
           </p>
 
           <p>
-            Sed residamus, inquit, si placet. Respondent extrema primis, media
-            utrisque, omnia omnibus. Videmus igitur ut conquiescere ne infantes
-            quidem possint. Quaerimus enim finem bonorum. Stoici scilicet.
-            Idemne, quod iucunde? Ita ne hoc quidem modo paria peccata sunt. At,
-            illa, ut vobis placet, partem quandam tuetur, reliquam deserit.{" "}
-          </p>
-
-          <ul>
-            <li>Teneo, inquit, finem illi videri nihil dolere.</li>
-            <li>
-              Theophrastus mediocriterne delectat, cum tractat locos ab
-              Aristotele ante tractatos?
-            </li>
-            <li>Tum mihi Piso: Quid ergo?</li>
-            <li>
-              Placet igitur tibi, Cato, cum res sumpseris non concessas, ex
-              illis efficere, quod velis?
-            </li>
-            <li>
-              Praeclare Laelius, et recte sofñw, illudque vere: O Publi, o
-              gurges, Galloni! es homo miser, inquit.
-            </li>
-            <li>
-              Quod cum accidisset ut alter alterum necopinato videremus,
-              surrexit statim.
-            </li>
-          </ul>
-
-          <p>
-            <b>Quo tandem modo?</b> Sed ne, dum huic obsequor, vobis molestus
-            sim. Quae diligentissime contra Aristonem dicuntur a Chryippo.
-            Itaque his sapiens semper vacabit.{" "}
+            För att kunna förbättra vår webbplats samlas webbläsarinformation in
+            tillsammans med verktyget Vercel Analytics. Dessa uppgifter
+            anonymiseras till den grad det går och används inte till några andra
+            syften.
           </p>
 
           <p>
-            Sed haec omittamus; Ne in odium veniam, si amicum destitero tueri.
-            Satis est ad hoc responsum. Age, inquies, ista parva sunt.{" "}
+            IP-adressen sparas även i serverloggar för felsökningssyften. Det
+            kopplas inte ihop med några andra uppgifter som kan identifiera dig.
+          </p>
+
+          <h3 className={`${lora.className} text-xl font-semibold`}>
+            2. Användning av information
+          </h3>
+          <p>
+            Den information vi samlar in från dig kan användas för att:
+            Förbättra vår webbplats. Kontaktformulär.
+          </p>
+
+          <h3 className={`${lora.className} text-xl font-semibold`}>
+            3. Utlämnande till tredje part
+          </h3>
+          <p>
+            Uppgifterna kommer inte att överföras till tredje part annat än i
+            syfte att understödja föreningens kärnverksamhet. Innan uppgifter
+            överförs till tredje part kommer du som kund behöva samtycka till
+            detta, och uppgifterna delas aldrig utanför EU. Dina personuppgifter
+            kommer heller inte att utsättas för automatiserat beslutsfattande.
           </p>
 
           <p>
-            Hunc vos beatum; Si longus, levis. Inde igitur, inquit, ordiendum
-            est. Quare conare, quaeso. Summae mihi videtur inscitiae.{" "}
-            <a href="http://loripsum.net/" target="_blank">
-              Is es profecto tu.
-            </a>{" "}
-            Aperiendum est igitur, quid sit voluptas;{" "}
+            Om föreningen vid något enstaka tillfälle absolut måste dela dina
+            personuppgifter med tredje part utan ditt explicita samtycke kommer
+            du att informeras särskilt om detta. Google Analytics
           </p>
 
           <p>
-            Illud non continuo, ut aeque incontentae. Cur post Tarentum ad
-            Archytam? <b>Cave putes quicquam esse verius.</b>{" "}
-            <i>Nihilo magis.</i> Facillimum id quidem est, inquam. Praeclarae
-            mortes sunt imperatoriae;{" "}
+            För att kunna förbättra vår webbplats samlas webbläsarinformation in
+            tillsammans med verktyget Google Analytics. Dessa uppgifter
+            anonymiseras till den grad det går och används inte till några andra
+            syften. Använder vi oss av cookies?
+          </p>
+
+          <p>
+            Ja, för att webbplatsen ska fungera krävs det att kakor lagras i
+            webbläsaren.
+          </p>
+
+          <h3 className={`${lora.className} text-xl font-semibold`}>
+            4. Rätt att begära och radera information
+          </h3>
+          <p>
+            Vill du veta om hur vi behandlar personuppgifter om dig alternativt
+            radera/exportera data kan du kontakta oss via kontaktformuläret på
+            sidan ”Kontakt”. Du har rätt att begära information om
+            personuppgifter som behandlas om dig hos oss och att få uppgifter
+            rättade.
+          </p>
+
+          <h3 className={`${lora.className} text-xl font-semibold`}>
+            5. Samtycke
+          </h3>
+          <p>
+            Genom att använda vår webbplats godkänner du vår integritetspolicy.
           </p>
         </div>
       </div>
