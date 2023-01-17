@@ -8,7 +8,7 @@ const lora = Lora({
 
 export default function KontaktaOss() {
   return (
-    <div className="px-2 md:px-0">
+    <div className="px-2 xl:px-0">
       <div className="md:container mx-auto shadow-md bg-white rounded-sm mt-4 md:mt-8">
         <h2
           className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold mb-2`}
