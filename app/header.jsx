@@ -48,7 +48,7 @@ export default function Header() {
         <ul
           className={
             menu
-              ? "-mb-4 md:mb-0 md:flex flex-col mt-4 border-y border-royal-yellow bg-[#815585] md:bg-transparent md:border-none md:flex-row md:justify-center md:space-x-8 md:items-center font-extrabold"
+              ? "-mb-4 md:mb-0 md:flex flex-col mt-4 border-t border-royal-yellow bg-[#815585] md:bg-transparent md:border-none md:flex-row md:justify-center md:space-x-8 md:items-center font-extrabold"
               : "hidden md:flex flex-col mt-4 border-y border-royal-yellow bg-[#815585] md:bg-transparent md:border-none md:flex-row md:justify-center md:space-x-8 md:items-center font-extrabold"
           }
         >
