@@ -19,7 +19,9 @@ export default function KontaktaOss() {
           <p>
             Du är alltid välkommen att kontakta oss i kommitéen om du har några
             frågor angående studentorkesterfestivalen. För generella frågor går
-            det bra att kontakta SOF-Generalen.
+            det bra att kontakta SOF-Generalen. Har din balkester frågor inför
+            festivalen, ta i första hand kontakt med våra balkesteransvariga på
+            balkester@sof23.se.
           </p>
         </div>
       </div>
