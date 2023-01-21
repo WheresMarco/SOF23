@@ -61,7 +61,7 @@ export default function Home() {
               >
                 <span>Senaste nytt</span>
                 <small className="text-xl opacity-80">
-                  14 januari kl. 16:16
+                  20 januari kl. 21:23
                 </small>
               </h2>
 
@@ -73,50 +73,33 @@ export default function Home() {
                   alt="Kungputten"
                   className="rounded-full float-right"
                 />
-                <p>Kära vänner!</p>
+                <p>Ä N T L I G E N ! 😍</p>
                 <p>
-                  Vi är stolta över att få presentera SOF23 - SOF 50 år! 😍
-                  Detta råkar sammanfalla med hur länge Sveriges nuvarande kung
-                  har regerat, och vi har valt ett lite mer kungligt tema för
-                  att fira vår favvo-putte. Kung-Putten ser fram emot att träffa
-                  er alla! 👑
+                  Balkesteranmälan till SOF23 är officiellt ÖPPNAD!! Länken har
+                  mejlats ut till ordföranden i balkestrar Sverige över och
+                  utanför! Prata med din ordförande för att ordna din plats
+                  redan ikväll, och passa på att plocka på dig din merch
+                  samtidigt 🌟 Merchanmälan stänger först 20:e mars, men
+                  kvällens tips är att göra det redan nu ✨
                 </p>
                 <p>
-                  SOF23 kommer att äga rum på kårhuset Kårallen i Linköping,
-                  från den 18:e maj till den 21:a maj. Under den tiden ser vi
-                  stort fram emot att få dansa, spela, sjunga och festa
-                  tillsammans med er! Vi siktar också på att hålla
-                  stadsspelningar ute i Linköping stad för att verkligen göra
-                  SOF till den folkfest som vi känner det som! Sovsalen planeras
-                  som vanligt att utgöras av Campushallen i närheten av
-                  Kårallen.{" "}
+                  Vi ser så oerhört mycket fram emot att träffa er på SOF23! 🤩
                 </p>
+                <p>---</p>
+                <p>F I N A L L Y ! 😍</p>
                 <p>
-                  I nuläget finns det dock dessvärre inte någon kortegeansvarig.
-                  Skulle du vara intresserad av att leda arbetet med SOF23:s
-                  kortege, eller känner du någon som skulle vilja det? Tveka
-                  inte att höra av dig till general@sof23.se! 📨{" "}
+                  The orchestra and dance group application is officially OPEN!!
+                  The link has been sent out to chairpersons in associations all
+                  over Sweden, as well as abroad! Talk to the chair in your
+                  association to get your ticket tonight already, and take the
+                  chance to place your merch order at the same time 🌟 The merch
+                  application doesn't close until March 20th, but tonight's tip
+                  is to secure it already ✨
                 </p>
-                <p>
-                  Som nämnt tidigare, så öppnar anmälan för balkestrar den 20:e
-                  januari, dvs om mindre än 1 vecka. Länkarna kommer att mejlas
-                  ut till föreningarna; håll ögonen öppna! För allmänheten
-                  öppnas sedan biljettförsäljningen 1:a maj. Vi ser så mycket
-                  fram emot att få välkomna er! ✨
-                </p>
-                <p>
-                  Under tiden går det att följa allt kring SOF23 på vår
-                  Facebook, Instagram och från nästa vecka på vår hemsida,
-                  sof23.se. Där kommer det också att gå att hitta
-                  kontaktuppgifter till alla oss i kommittén.{" "}
-                </p>
-                <p>
-                  Det var allt för denna gång! Vi hörs snart igen, och tagga
-                  SOF23!! 🤩
-                </p>
+                <p>We're so looking forward to seeing you all at SOF23! 🤩</p>
                 <p>
                   <Link
-                    href="https://www.facebook.com/Studentorkesterfestivalen/posts/705512217761167"
+                    href="https://www.facebook.com/events/539499114779663?post_id=540610484668526&view=permalink"
                     target="blank"
                   >
                     <svg
