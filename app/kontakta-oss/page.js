@@ -53,9 +53,9 @@ export default function KontaktaOss() {
         />
         <Person
           image="/kommitte/no.jpg"
-          name="Kortegeansvarig"
-          title="Kanske du? Sök kortegeansvarig genom att maila: general@sof23.se"
-          email=""
+          name="John Sköldestig"
+          title="Kortegeansvarig"
+          email="kortege@sof23.se"
         />
         <Person
           image="/kommitte/no.jpg"
