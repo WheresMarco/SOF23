@@ -103,6 +103,13 @@ export default function FragorSvar() {
           </p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>
+            Kommer det finnas frukost på boendet?
+          </h3>
+          <p>
+          Ja, det ingår i boendepriset.
+          </p>
+
+          <h3 className={`${lora.className} text-xl font-semibold`}>
             Jag vill jobba på SOF!
           </h3>
           <p>
@@ -120,7 +127,7 @@ export default function FragorSvar() {
             -sidan.
           </p>
 
-          <p className="italic">Senast uppdaterad 17 januari.</p>
+          <p className="italic">Senast uppdaterad 27 februari.</p>
         </div>
       </div>
     </div>
