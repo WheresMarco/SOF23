@@ -106,13 +106,13 @@ export default function KontaktaOss() {
           email="stad@sof23.se"
         />
         <Person
-          image="/kommitte/no.jpg"
+          image="/kommitte/linnea.webp"
           name="Linnea Östberg"
           title="Balkester"
           email="balkester@sof23.se"
         />
         <Person
-          image="/kommitte/no.jpg"
+          image="/kommitte/hissen.webp"
           name="Hanna Begander"
           title="Balkester"
           email="balkester@sof23.se"
