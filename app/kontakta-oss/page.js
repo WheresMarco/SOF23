@@ -54,7 +54,7 @@ export default function KontaktaOss() {
         <Person
           image="/kommitte/no.jpg"
           name="John Sköldestig"
-          title="Kortegeansvarig"
+          title="Kårtegeansvarig"
           email="kortege@sof23.se"
         />
         <Person

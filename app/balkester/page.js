@@ -34,7 +34,7 @@ export default function Balkester() {
           <p>
             Vi kommer att vara på plats i Kårallen i Linköping, med lite utstick
             på stan för stadspelningar om er Balkester vill det. Eventuellt
-            kommer det att bli en kortege i år, anmäl gärna intresse så
+            kommer det att bli en kårtege i år, anmäl gärna intresse så
             återkommer vi om det blir av.
           </p>
 

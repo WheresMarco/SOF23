@@ -69,12 +69,10 @@ export default function FragorSvar() {
           </p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>
-            Blir det någon kortege?
+            Blir det någon kårtege?
           </h3>
           <p>
-            Vi arbetar för att det ska bli en kortege i år. Just nu söker vi en
-            kortegeansvarig som kan rodda i det. Vi kommer återkomma när vi vet
-            mera.
+            Vi arbetar för att det ska bli en kårtege i år. Vi kommer återkomma när vi vet mera.
           </p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>
