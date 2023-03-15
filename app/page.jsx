@@ -61,7 +61,7 @@ export default function Home() {
               >
                 <span>Senaste nytt</span>
                 <small className="text-xl opacity-80">
-                  20 januari kl. 21:23
+                  15 mars kl. 18:05
                 </small>
               </h2>
 
@@ -73,33 +73,28 @@ export default function Home() {
                   alt="Kungputten"
                   className="rounded-full float-right"
                 />
-                <p>Ä N T L I G E N ! 😍</p>
                 <p>
-                  Balkesteranmälan till SOF23 är officiellt ÖPPNAD!! Länken har
-                  mejlats ut till ordföranden i balkestrar Sverige över och
-                  utanför! Prata med din ordförande för att ordna din plats
-                  redan ikväll, och passa på att plocka på dig din merch
-                  samtidigt 🌟 Merchanmälan stänger först 20:e mars, men
-                  kvällens tips är att göra det redan nu ✨
+                  Nu är det officiellt 5 dagar kvar tills merchanmälan stänger
+                  20/3! Du har väl anmält dig och klickat in dig på märken och
+                  medaljer? Inför nedräkningen till måndag vill vi dela med oss
+                  av en uttalan från SOF23s general, som svarar på allehanda
+                  frågor om årets festival! Lyssna på senaste avsnittet i
+                  Balkesterpodden nedan 🎉
                 </p>
                 <p>
-                  Vi ser så oerhört mycket fram emot att träffa er på SOF23! 🤩
+                  ------------------------------------------------------------------------------------
                 </p>
-                <p>---</p>
-                <p>F I N A L L Y ! 😍</p>
                 <p>
-                  The orchestra and dance group application is officially OPEN!!
-                  The link has been sent out to chairpersons in associations all
-                  over Sweden, as well as abroad! Talk to the chair in your
-                  association to get your ticket tonight already, and take the
-                  chance to place your merch order at the same time 🌟 The merch
-                  application doesn't close until March 20th, but tonight's tip
-                  is to secure it already ✨
+                  It is officially 5 days left until the merchandise application
+                  closes! You have applied to the festival and ordered your
+                  medals and patches, right? For the countdown to Monday, we
+                  would like to share a word from the SOF23 general, who answers
+                  all kinds of questions about this year's festival! Listen to
+                  the latest episode of Balkesterpodden below 🎉
                 </p>
-                <p>We're so looking forward to seeing you all at SOF23! 🤩</p>
                 <p>
                   <Link
-                    href="https://www.facebook.com/events/539499114779663?post_id=540610484668526&view=permalink"
+                    href="https://www.facebook.com/events/539499114779663/?post_id=572196324843275&view=permalink"
                     target="blank"
                   >
                     <svg
