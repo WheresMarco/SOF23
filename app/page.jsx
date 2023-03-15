@@ -60,9 +60,7 @@ export default function Home() {
                 className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold flex justify-between items-center`}
               >
                 <span>Senaste nytt</span>
-                <small className="text-xl opacity-80">
-                  15 mars kl. 18:05
-                </small>
+                <small className="text-xl opacity-80">15 mars kl. 18:05</small>
               </h2>
 
               <div className="p-4">
@@ -76,14 +74,16 @@ export default function Home() {
                 <p>
                   Nu är det officiellt 5 dagar kvar tills merchanmälan stänger
                   20/3! Du har väl anmält dig och klickat in dig på märken och
-                  medaljer? Inför nedräkningen till måndag vill vi dela med oss
-                  av en uttalan från SOF23s general, som svarar på allehanda
-                  frågor om årets festival! Lyssna på senaste avsnittet i
-                  Balkesterpodden nedan 🎉
+                  medaljer?
                 </p>
+
                 <p>
-                  ------------------------------------------------------------------------------------
+                  Inför nedräkningen till måndag vill vi dela med oss av en
+                  uttalan från SOF23s general, som svarar på allehanda frågor om
+                  årets festival! Lyssna på senaste avsnittet i Balkesterpodden
+                  genom att klicka på länken till inlägget nedan 🎉
                 </p>
+                <p>-------------------------------------</p>
                 <p>
                   It is officially 5 days left until the merchandise application
                   closes! You have applied to the festival and ordered your
