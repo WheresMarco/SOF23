@@ -46,7 +46,7 @@ export default function Jobba() {
 
           <p>Sök jobbare, så ses vi på SOF!</p>
 
-          <br className="clear-both" />
+          <br />
 
           <Link
             className="btn btn-purple mr-2 mb-2 md:mb-0"
@@ -90,6 +90,8 @@ export default function Jobba() {
             </svg>
             Följ oss på Instagram
           </Link>
+
+          <br />
 
           <p className="italic">Senast uppdaterad 2 april.</p>
 
