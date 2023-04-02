@@ -60,7 +60,7 @@ export default function Home() {
                 className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold flex justify-between items-center`}
               >
                 <span>Senaste nytt</span>
-                <small className="text-xl opacity-80">15 mars kl. 18:05</small>
+                <small className="text-xl opacity-80">27 mars kl. 23:09</small>
               </h2>
 
               <div className="p-4">
@@ -72,29 +72,48 @@ export default function Home() {
                   className="rounded-full float-right"
                 />
                 <p>
-                  Nu är det officiellt 5 dagar kvar tills merchanmälan stänger
-                  20/3! Du har väl anmält dig och klickat in dig på märken och
-                  medaljer?
+                  Nu kan vi stolt presentera - intresseanmälan till Kårtegen! 🥳
+                  Varmt välkommen att anmäla ditt bidrag! För att delta behöver
+                  man köpa en helhelgsbiljett för torsdag till söndag (500:-),
+                  men ni får såklart förköp 🙏 Vi är superpeppa att få höra om
+                  era bidrag! Deadline för anmälan är 5/4 👏 Vi hörs!!
                 </p>
-
                 <p>
-                  Inför nedräkningen till måndag vill vi dela med oss av en
-                  uttalan från SOF23s general, som svarar på allehanda frågor om
-                  årets festival! Lyssna på senaste avsnittet i Balkesterpodden
-                  genom att klicka på länken till inlägget nedan 🎉
-                </p>
-                <p>-------------------------------------</p>
-                <p>
-                  It is officially 5 days left until the merchandise application
-                  closes! You have applied to the festival and ordered your
-                  medals and patches, right? For the countdown to Monday, we
-                  would like to share a word from the SOF23 general, who answers
-                  all kinds of questions about this year's festival! Listen to
-                  the latest episode of Balkesterpodden below 🎉
+                  OBS! Denna anmälan är ej relevant för studentbalkesterar 😊
                 </p>
                 <p>
                   <Link
-                    href="https://www.facebook.com/events/539499114779663/?post_id=572196324843275&view=permalink"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfWakiXstuwX0eQZGHKTWo4crOe85wP1tbzDmvZ9nWkU0IOfw/viewform"
+                    target="blank"
+                  >
+                    Länk till anmälan
+                  </Link>
+                </p>
+                <p>---</p>
+                <p>
+                  Now we can proudly present - the interest form for the
+                  Cortège! 🥳 You're more than welcome to register your
+                  contribution! In order to participate, one needs to purchase a
+                  full-weekend ticket for Thursday to Sunday (500 SEK), but you
+                  will of course get to buy the tickets before public release 🙏
+                  We are so hyped to get to hear about your contributions!
+                  Deadline for the registration is the 5th of April 👏 Take
+                  care!!
+                </p>
+                <p>
+                  NB! This registration is not relevant for student balchestras{" "}
+                </p>
+                <p>
+                  <Link
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfWakiXstuwX0eQZGHKTWo4crOe85wP1tbzDmvZ9nWkU0IOfw/viewform"
+                    target="blank"
+                  >
+                    Registration
+                  </Link>
+                </p>
+                <p>
+                  <Link
+                    href="https://www.facebook.com/events/539499114779663?post_id=578209844241923&view=permalink"
                     target="blank"
                   >
                     <svg
