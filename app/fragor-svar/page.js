@@ -72,7 +72,8 @@ export default function FragorSvar() {
             Blir det någon kårtege?
           </h3>
           <p>
-            Vi arbetar för att det ska bli en kårtege i år. Vi kommer återkomma när vi vet mera.
+            Vi arbetar för att det ska bli en kårtege i år. Vi kommer återkomma
+            när vi vet mera.
           </p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>
@@ -105,9 +106,7 @@ export default function FragorSvar() {
           <h3 className={`${lora.className} text-xl font-semibold`}>
             Kommer det finnas frukost på boendet?
           </h3>
-          <p>
-          Ja, det ingår i boendepriset.
-          </p>
+          <p>Ja, det ingår i boendepriset.</p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>
             Jag vill jobba på SOF!
@@ -119,6 +118,27 @@ export default function FragorSvar() {
           </p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>
+            När ska min balkester dyka upp på torsdagen?
+          </h3>
+          <p>
+            Vi rekommenderar att ni dyker upp under eftermiddagen mellan 14-17
+            för att hinna i tid till middagssittningen. Puben är öppen från kl
+            15!
+          </p>
+
+          <h3 className={`${lora.className} text-xl font-semibold`}>
+            Var kan vi parkera bussen?
+          </h3>
+          <p>
+            För av- och pålastning av instrument och packning finns temporär
+            parkering i anslutning till både till festivalområdet och sovsalen.
+            Vi jobbar på att hitta bussparkering för bussar som stannar över
+            helgen. Vet ni att ni vill parkera er buss hos oss över helgen, säg
+            gärna till sovansvarig på sov@sof23.se så att vi vet hur många
+            bussar det blir!
+          </p>
+
+          <h3 className={`${lora.className} text-xl font-semibold`}>
             Jag har fler frågor!
           </h3>
           <p>
@@ -127,7 +147,7 @@ export default function FragorSvar() {
             -sidan.
           </p>
 
-          <p className="italic">Senast uppdaterad 27 februari.</p>
+          <p className="italic">Senast uppdaterad 5 april.</p>
         </div>
       </div>
     </div>
