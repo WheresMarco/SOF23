@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className={`${merriweather.className} bg-[#f2eef3]`}>
+      <body className={`${merriweather.className} bg-[#f2eef3] box-border`}>
         <Header />
 
         {children}

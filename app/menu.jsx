@@ -33,15 +33,19 @@ export default function Menu() {
         className="container mx-auto flex items-center justify-between"
         aria-label="Global"
       >
-        <div className="flex lg:flex-1">
-          <Link href="/" className="hover:rotate-6 transition-all" onClick={() => toggleMenu(false)}>
+        <div className="flex ml-2 lg:ml-0 lg:flex-1">
+          <Link
+            href="/"
+            className="hover:rotate-6 transition-all"
+            onClick={() => toggleMenu(false)}
+          >
             <Image src="/logo.svg" alt="Logo" width={75} height={75} />
           </Link>
         </div>
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="inline-flex items-center justify-center rounded-md p-2 bg-royal-yellow mr-2 text-black"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -249,65 +253,161 @@ export default function Menu() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
-            </a>
-            <button
-              type="button"
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              <span className="sr-only">Close menu</span>
-              <XMarkIcon className="h-6 w-6" aria-hidden="true" />
-            </button>
-          </div>
-          <div className="mt-6 flow-root">
-            <div className="-my-6 divide-y divide-gray-500/10">
-              <div className="space-y-2 py-6">
-                <Disclosure as="div" className="-mx-3">
-                  {({ open }) => (
-                    <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
-                        Product
-                        <ChevronDownIcon
-                          className={classNames(
-                            open ? "rotate-180" : "",
-                            "h-5 w-5 flex-none"
-                          )}
-                          aria-hidden="true"
-                        />
-                      </Disclosure.Button>
-                      <Disclosure.Panel className="mt-2 space-y-2">
-                        etst
-                      </Disclosure.Panel>
-                    </>
-                  )}
-                </Disclosure>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-royal-yellow hover:bg-gray-50"
-                >
-                  Features
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-royal-yellow hover:bg-gray-50"
-                >
-                  Marketplace
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-royal-yellow hover:bg-gray-50"
-                >
-                  Company
-                </a>
+        <Dialog.Panel className="fixed inset-y-0 left-0 z-10 w-full overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 bg-wallpaper">
+          <div className="px-2 py-4">
+            <div className="flex items-center justify-between">
+              <Link
+                href="/"
+                className="hover:rotate-6 transition-all"
+                onClick={() => toggleMenu(false)}
+              >
+                <Image src="/logo.svg" alt="Logo" width={75} height={75} />
+              </Link>
+              <button
+                type="button"
+                className="inline-flex items-center justify-center rounded-md p-2 bg-royal-yellow text-black"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                <span className="sr-only">Close menu</span>
+                <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+              </button>
+            </div>
+            <div className="mt-6 flow-root">
+              <div className="-my-6 divide-y divide-gray-500/10">
+                <div className="space-y-2 py-6">
+                  <Disclosure as="div" className="">
+                    {({ open }) => (
+                      <>
+                        <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 bg-gray-50">
+                          Festivalen
+                          <ChevronDownIcon
+                            className={classNames(
+                              open ? "rotate-180" : "",
+                              "h-5 w-5 flex-none"
+                            )}
+                            aria-hidden="true"
+                          />
+                        </Disclosure.Button>
+                        <Disclosure.Panel className="space-y-2 bg-gray-50 -mt-2 pt-2 rounded-b-md pb-2">
+                          <a
+                            href="/festivalen"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                          >
+                            Om Festivalen
+                          </a>
+
+                          <a
+                            href="/festivalen/schema"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                          >
+                            Schema
+                          </a>
+
+                          <a
+                            href="/festivalen/karta"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                          >
+                            Karta
+                          </a>
+
+                          <a
+                            href="/festivalen/mat"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                          >
+                            Mat på området
+                          </a>
+                        </Disclosure.Panel>
+                      </>
+                    )}
+                  </Disclosure>
+
+                  <Disclosure as="div" className="">
+                    {({ open }) => (
+                      <>
+                        <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 bg-gray-50">
+                          Balkester
+                          <ChevronDownIcon
+                            className={classNames(
+                              open ? "rotate-180" : "",
+                              "h-5 w-5 flex-none"
+                            )}
+                            aria-hidden="true"
+                          />
+                        </Disclosure.Button>
+                        <Disclosure.Panel className="space-y-2 bg-gray-50 -mt-2 pt-2 rounded-b-md pb-2">
+                          <a
+                            href="/balkester"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                          >
+                            Information
+                          </a>
+
+                          <a
+                            href="/balkester/anmalda"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                          >
+                            Balkestrar som kommer
+                          </a>
+                        </Disclosure.Panel>
+                      </>
+                    )}
+                  </Disclosure>
+
+                  <Disclosure as="div" className="">
+                    {({ open }) => (
+                      <>
+                        <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 bg-gray-50">
+                          Kårtege
+                          <ChevronDownIcon
+                            className={classNames(
+                              open ? "rotate-180" : "",
+                              "h-5 w-5 flex-none"
+                            )}
+                            aria-hidden="true"
+                          />
+                        </Disclosure.Button>
+                        <Disclosure.Panel className="space-y-2 bg-gray-50 -mt-2 pt-2 rounded-b-md pb-2">
+                          <a
+                            href="/kartege"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                          >
+                            Om Kårtegen
+                          </a>
+                          <a
+                            href="/kartege/ordning"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                          >
+                            Kårtegeordning
+                          </a>
+                          <a
+                            href="/kartege/vag"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                          >
+                            Kårtegens väg
+                          </a>{" "}
+                        </Disclosure.Panel>
+                      </>
+                    )}
+                  </Disclosure>
+                  <a
+                    href="/jobba"
+                    className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 bg-gray-50"
+                  >
+                    Jobba på SOF
+                  </a>
+                  <a
+                    href="/fragor-svar"
+                    className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 bg-gray-50"
+                  >
+                    Frågor & Svar
+                  </a>
+                  <a
+                    href="/kontakta-oss"
+                    className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 bg-gray-50"
+                  >
+                    Kontakta oss
+                  </a>
+                </div>
               </div>
             </div>
           </div>
