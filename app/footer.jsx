@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-4 mb-8">
-          <div className="bg-black rounded-md h-32 flex justify-center">
+          <div className="bg-black rounded-md flex justify-center">
             <Image
               src="/sponsor/linkoping.png"
               alt="Linköpings Kommun"
@@ -32,7 +32,7 @@ export default function Footer() {
               height={200}
             />
           </div>
-          <div className="bg-black rounded-md h-32 flex justify-center">
+          <div className="bg-black rounded-md flex justify-center">
             <Image
               src="/sponsor/studieframjandet.png"
               alt="Studieförbundet"
