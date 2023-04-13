@@ -51,6 +51,18 @@ export default function FragorSvar() {
             fått någon länk kontakta din balkesterledare.
           </p>
 
+          <p>
+            För allmänheten kommer biljetterna att släppas den 1:a maj digitalt
+            via{" "}
+            <a
+              href="https://billio.app/event/sof"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Billio
+            </a>.
+          </p>
+
           <h3 className={`${lora.className} text-xl font-semibold`}>
             Hur mycket kostar det att gå på SOF?
           </h3>
