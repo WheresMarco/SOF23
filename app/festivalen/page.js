@@ -77,12 +77,11 @@ export default function Festivalen() {
             till sig runt 50.000 åskådare för att se på studentbidragen rulla
             fram och balkestrarna marscherar genom staden. Publikmässigt är SOF
             en större festival än STORK och är till för balkestrarna, studenter
-            vid Linköping universitet såväl som allmänheten. SOF anordnas av
-            LinTek (teknologernas studentkår vid Linköpings universitet) genom
-            en egen projetkgrupp på 50 personer med mellan 100-200 funktionärer.
+            vid Linköping universitet såväl som allmänheten. SOF anordnas i år av {" "}
+            <a href="https://rikssmask.se" target="_blank">Riks-SMASK</a> genom en egen projektgrupp på 18 personer.
           </p>
 
-          <p className="italic">Senast uppdaterad 17 januari.</p>
+          <p className="italic">Senast uppdaterad 13 april.</p>
         </div>
       </div>
     </div>

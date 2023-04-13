@@ -17,11 +17,11 @@ export default function Home() {
             alt="Ornament"
             width={300}
             height={300}
-            className="hidden xl:block"
+            className="hidden 2xl:block"
           />
-          <div className="text-center xl:w-1/2 pb-8 pt-4 md:py-24 xl:pb-32">
+          <div className="text-center 2xl:w-1/2 pb-8 pt-4 md:py-24 2xl:pb-32">
             <h1
-              className={`${lora.className} text-6xl xl:text-9xl mb-4 md:mb-8 font-semibold`}
+              className={`${lora.className} text-6xl 2xl:text-9xl mb-4 md:mb-8 font-semibold`}
             >
               Tagga SOF!
             </h1>
@@ -47,7 +47,7 @@ export default function Home() {
             alt="Ornament"
             width={300}
             height={300}
-            className="hidden xl:block"
+            className="hidden 2xl:block"
           />
         </div>
       </section>
@@ -60,7 +60,7 @@ export default function Home() {
                 className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold flex justify-between items-center`}
               >
                 <span>Senaste nytt</span>
-                <small className="text-xl opacity-80">27 mars kl. 23:09</small>
+                <small className="text-xl opacity-80">11 april kl. 21:27</small>
               </h2>
 
               <div className="p-4">
@@ -71,49 +71,49 @@ export default function Home() {
                   alt="Kungputten"
                   className="rounded-full float-right"
                 />
+                <p>Bästa ni! 🌟</p>
                 <p>
-                  Nu kan vi stolt presentera - intresseanmälan till Kårtegen! 🥳
-                  Varmt välkommen att anmäla ditt bidrag! För att delta behöver
-                  man köpa en helhelgsbiljett för torsdag till söndag (500:-),
-                  men ni får såklart förköp 🙏 Vi är superpeppa att få höra om
-                  era bidrag! Deadline för anmälan är 5/4 👏 Vi hörs!!
+                  Imorgon stänger intresseanmälan för Kårtegen! Passa på att
+                  anmäla ditt bidrag idag; dock vill vi lämna heads-up för att
+                  det snart kommer att släppas en definitiv anmälan till
+                  Kårtegen. Den dyker upp här i evenemanget, men vi kontaktar
+                  såklart er som redan anmält intresse genom intresseanmälan 🥳
+                </p>
+
+                <p>Vi passar på att köra en kort Q&A om Kårtegen iom detta:</p>
+                <p>
+                  - Vad är Kårtegen?
+                  <br />
+                  Kårtegen är en parad som traditionellt under SOF löper genom
+                  Linköpings stadskärna, och i den går både studentorkestrar och
+                  -baletter, liksom allehanda studentföreningar och byggen!
                 </p>
                 <p>
-                  OBS! Denna anmälan är ej relevant för studentbalkesterar 😊
+                  - Vad är “byggen”?
+                  <br />
+                  Byggen är temaenliga, spexiga konstruktioner som byggs av
+                  studenter och förs fram på lastbilar, släp eller på annat vis.
+                  Om du vill kan du vara med!
                 </p>
                 <p>
+                  - När är Kårtegen?
+                  <br />I år äger den rum på SOF-lördagen, den 20/5, kl 13.
+                </p>
+
+                <p>
+                  Och slutligen, länken till intresseanmälan:{" "}
                   <Link
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfWakiXstuwX0eQZGHKTWo4crOe85wP1tbzDmvZ9nWkU0IOfw/viewform"
+                    href="https://forms.gle/TXFJ5YjaUe1Ma24ZA"
                     target="blank"
                   >
                     Länk till anmälan
                   </Link>
                 </p>
-                <p>---</p>
-                <p>
-                  Now we can proudly present - the interest form for the
-                  Cortège! 🥳 You're more than welcome to register your
-                  contribution! In order to participate, one needs to purchase a
-                  full-weekend ticket for Thursday to Sunday (500 SEK), but you
-                  will of course get to buy the tickets before public release 🙏
-                  We are so hyped to get to hear about your contributions!
-                  Deadline for the registration is the 5th of April 👏 Take
-                  care!!
-                </p>
-                <p>
-                  NB! This registration is not relevant for student balchestras{" "}
-                </p>
+                <p>Ha det bäst!!</p>
+
                 <p>
                   <Link
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfWakiXstuwX0eQZGHKTWo4crOe85wP1tbzDmvZ9nWkU0IOfw/viewform"
-                    target="blank"
-                  >
-                    Registration
-                  </Link>
-                </p>
-                <p>
-                  <Link
-                    href="https://www.facebook.com/events/539499114779663?post_id=578209844241923&view=permalink"
+                    href="https://www.facebook.com/events/539499114779663/?post_id=585273440202230&view=permalink"
                     target="blank"
                   >
                     <svg
