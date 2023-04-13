@@ -12,6 +12,9 @@ module.exports = {
         "royal-red": "#c1525e",
         "royal-purple": "#815585",
       },
+      scale: {
+        "-100": "-1",
+      },
     },
   },
   variants: {
