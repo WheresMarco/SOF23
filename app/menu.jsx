@@ -93,21 +93,21 @@ export default function Menu() {
                         </Link>
 
                         <Link
-                          href="/festivalen"
+                          href="/festivalen/schema"
                           className="block font-semibold text-black p-2 hover:no-underline hover:bg-royal-yellow rounded-md"
                         >
                           Schema
                         </Link>
 
                         <Link
-                          href="/festivalen"
+                          href="/festivalen/karta"
                           className="block font-semibold text-black p-2 hover:no-underline hover:bg-royal-yellow rounded-md"
                         >
                           Karta
                         </Link>
 
                         <Link
-                          href="/festivalen"
+                          href="/festivalen/mat"
                           className="block font-semibold text-black p-2 hover:no-underline hover:bg-royal-yellow rounded-md"
                         >
                           Mat på området
@@ -146,24 +146,17 @@ export default function Menu() {
                     <div className="p-2">
                       <div className="flex-auto">
                         <Link
-                          href="/festivalen"
+                          href="/balkester"
                           className="block font-semibold text-black p-2 hover:no-underline hover:bg-royal-yellow rounded-md"
                         >
                           Information
                         </Link>
 
                         <Link
-                          href="/festivalen"
+                          href="/balkester/anmalda-balkestrar"
                           className="block font-semibold text-black p-2 hover:no-underline hover:bg-royal-yellow rounded-md"
                         >
                           Balkestrar som kommer
-                        </Link>
-
-                        <Link
-                          href="/festivalen"
-                          className="block font-semibold text-black p-2 hover:no-underline hover:bg-royal-yellow rounded-md"
-                        >
-                          Anmälan
                         </Link>
                       </div>
                     </div>
@@ -199,21 +192,21 @@ export default function Menu() {
                     <div className="p-2">
                       <div className="flex-auto">
                         <Link
-                          href="/festivalen"
+                          href="/kartegen"
                           className="block font-semibold text-black p-2 hover:no-underline hover:bg-royal-yellow rounded-md"
                         >
                           Om Kårtegen
                         </Link>
 
                         <Link
-                          href="/festivalen"
+                          href="/kartegen/kartegeordning"
                           className="block font-semibold text-black p-2 hover:no-underline hover:bg-royal-yellow rounded-md"
                         >
                           Kårtegeordning
                         </Link>
 
                         <Link
-                          href="/festivalen"
+                          href="/kartegen/vag"
                           className="block font-semibold text-black p-2 hover:no-underline hover:bg-royal-yellow rounded-md"
                         >
                           Kårtegens väg
@@ -291,28 +284,28 @@ export default function Menu() {
                         <Disclosure.Panel className="space-y-2 bg-gray-50 -mt-2 pt-2 rounded-b-md pb-2">
                           <a
                             href="/festivalen"
-                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow"
                           >
                             Om Festivalen
                           </a>
 
                           <a
                             href="/festivalen/schema"
-                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow"
                           >
                             Schema
                           </a>
 
                           <a
                             href="/festivalen/karta"
-                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow"
                           >
                             Karta
                           </a>
 
                           <a
                             href="/festivalen/mat"
-                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow"
                           >
                             Mat på området
                           </a>
@@ -337,14 +330,14 @@ export default function Menu() {
                         <Disclosure.Panel className="space-y-2 bg-gray-50 -mt-2 pt-2 rounded-b-md pb-2">
                           <a
                             href="/balkester"
-                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow"
                           >
                             Information
                           </a>
 
                           <a
-                            href="/balkester/anmalda"
-                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                            href="/balkester/anmalda-balkestrar"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow"
                           >
                             Balkestrar som kommer
                           </a>
@@ -369,19 +362,19 @@ export default function Menu() {
                         <Disclosure.Panel className="space-y-2 bg-gray-50 -mt-2 pt-2 rounded-b-md pb-2">
                           <a
                             href="/kartege"
-                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow"
                           >
                             Om Kårtegen
                           </a>
                           <a
-                            href="/kartege/ordning"
-                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                            href="/kartege/kartegeordning"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow"
                           >
                             Kårtegeordning
                           </a>
                           <a
                             href="/kartege/vag"
-                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow rounded-md"
+                            className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow"
                           >
                             Kårtegens väg
                           </a>{" "}
