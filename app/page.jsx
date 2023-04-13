@@ -113,7 +113,7 @@ export default function Home() {
 
                 <p>
                   <Link
-                    href="https://www.facebook.com/events/539499114779663?post_id=578209844241923&view=permalink"
+                    href="https://www.facebook.com/events/539499114779663/?post_id=585273440202230&view=permalink"
                     target="blank"
                   >
                     <svg
