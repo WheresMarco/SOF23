@@ -17,11 +17,11 @@ export default function Home() {
             alt="Ornament"
             width={300}
             height={300}
-            className="hidden xl:block"
+            className="hidden 2xl:block"
           />
-          <div className="text-center xl:w-1/2 pb-8 pt-4 md:py-24 xl:pb-32">
+          <div className="text-center 2xl:w-1/2 pb-8 pt-4 md:py-24 2xl:pb-32">
             <h1
-              className={`${lora.className} text-6xl xl:text-9xl mb-4 md:mb-8 font-semibold`}
+              className={`${lora.className} text-6xl 2xl:text-9xl mb-4 md:mb-8 font-semibold`}
             >
               Tagga SOF!
             </h1>
@@ -47,7 +47,7 @@ export default function Home() {
             alt="Ornament"
             width={300}
             height={300}
-            className="hidden xl:block"
+            className="hidden 2xl:block"
           />
         </div>
       </section>
