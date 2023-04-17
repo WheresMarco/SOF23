@@ -69,7 +69,7 @@ export default function FragorSvar() {
           <p>
             I år kommer det att kosta 500 kr för hela helgen. För bara Fredag
             till Lördag kostar det 450 kr. En dagsbiljett kommer att kosta 200
-            kr, förutom för torsdagen då en dagsbiljett kostar 150 kr.
+            kr, förutom för torsdagen då en dagsbiljett kostar 150 kr och på lördagen då den kostar 250 kr.
           </p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>

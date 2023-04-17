@@ -32,17 +32,34 @@ export default function Jobba() {
           </p>
 
           <p>
-            Men utan jobbare så blir det inget SOF. Från den 17:e april kommer
-            anmälan att vara öppen. Anmälan kommer att publiceras både här på
-            hemsidan men också i våra sociala medier.
+            Men utan jobbare så blir det inget SOF. Från och med nu så går det
+            bra att anmäla sig för att jobba. Det är först till kvarn som gäller
+            och följande förmåner gäller:
+            <br />
+            1 pass - Funkiströja (t-shirt för jobbare)
+            <br />
+            2 pass - Funkiströja och förköp
+            <br />
+            3 pass - Funkiströja, förköp och 100:- rabatt på helhelgsbiljett
+            <br />4 pass - Funkiströja och en gratis helhelgsbiljett
           </p>
 
           <p>
-            Som jobbare får du finfina förmåner, bland annat en storslagen
-            tackfest, rabatterade priser på biljett(er) men också en fantastisk
-            upplevelse! Mer information kommer, men har du frågor kan du
-            maila <a href="mailto:personal@sof23.se">personal@sof23.se</a>
+            Alla pass är 4 timmar långa och alla pass mellan 00 och 08 räknas
+            dubbelt. Detta gör att om du anmäler dig som festjobbare
+            (20:00-04:00) så räknas det som 3 pass, och du behöver bara gör ett
+            pass till för att få en gratis helhelgsbiljett.
           </p>
+
+          <p>
+            Formulär för att anmäla sig:
+            <br />
+            <a href="https://forms.gle/7JGCwTAjgw5fcDy68" target="_blank" rel="noreferrer">https://forms.gle/7JGCwTAjgw5fcDy68</a> (svenskt formulär)
+            <br />
+            <a href="https://forms.gle/DT3dwqZcN3wNJ7DE7" target="_blank" rel="noreferrer">https://forms.gle/DT3dwqZcN3wNJ7DE7</a> (engelskt formulär)
+          </p>
+
+          <p>Har du frågor kan du maila <a href="mailto:personal@sof23.se">personal@sof23.se</a></p>
 
           <p>Sök jobbare, så ses vi på SOF!</p>
 
@@ -93,7 +110,7 @@ export default function Jobba() {
 
           <br />
 
-          <p className="italic">Senast uppdaterad 2 april.</p>
+          <p className="italic">Senast uppdaterad 17 april.</p>
 
           <br className="clear-both" />
         </div>
