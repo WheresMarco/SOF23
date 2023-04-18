@@ -1,6 +1,8 @@
+"use client";
 import { Lora } from "@next/font/google";
 import Image from "next/image";
 import Link from "next/link";
+import FacebookFeed from './components/feed';
 
 const lora = Lora({
   subsets: ["latin"],
@@ -66,80 +68,63 @@ export default function Home() {
               <h2
                 className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold flex justify-between items-center`}
               >
-                <span>Senaste nytt</span>
-                <small className="text-xl opacity-80">11 april kl. 21:27</small>
+                <span>Senaste nytt från Facebook</span>
               </h2>
 
               <div className="p-4">
-                <Image
-                  src="/fb.jpeg"
-                  width={45}
-                  height={45}
-                  alt="Kungputten"
-                  className="rounded-full float-right"
-                />
-                <p>Bästa ni! 🌟</p>
-                <p>
-                  Imorgon stänger intresseanmälan för Kårtegen! Passa på att
-                  anmäla ditt bidrag idag; dock vill vi lämna heads-up för att
-                  det snart kommer att släppas en definitiv anmälan till
-                  Kårtegen. Den dyker upp här i evenemanget, men vi kontaktar
-                  såklart er som redan anmält intresse genom intresseanmälan 🥳
-                </p>
+                <FacebookFeed />
+              </div>
+            </div>
 
-                <p>Vi passar på att köra en kort Q&A om Kårtegen iom detta:</p>
-                <p>
-                  - Vad är Kårtegen?
-                  <br />
-                  Kårtegen är en parad som traditionellt under SOF löper genom
-                  Linköpings stadskärna, och i den går både studentorkestrar och
-                  -baletter, liksom allehanda studentföreningar och byggen!
-                </p>
-                <p>
-                  - Vad är “byggen”?
-                  <br />
-                  Byggen är temaenliga, spexiga konstruktioner som byggs av
-                  studenter och förs fram på lastbilar, släp eller på annat vis.
-                  Om du vill kan du vara med!
-                </p>
-                <p>
-                  - När är Kårtegen?
-                  <br />I år äger den rum på SOF-lördagen, den 20/5, kl 13.
-                </p>
-
-                <p>
-                  Och slutligen, länken till intresseanmälan:{" "}
-                  <Link
-                    href="https://forms.gle/TXFJ5YjaUe1Ma24ZA"
+            <div className="shadow-md bg-white rounded-sm mt-4">
+              <h2
+                  className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold`}
+              >
+                Sociala Medier
+              </h2>
+              <div className="px-2 py-2">
+                <Link
+                    className="btn btn-purple mr-2 mb-2 md:mb-0"
+                    href="https://www.facebook.com/Studentorkesterfestivalen"
                     target="blank"
-                  >
-                    Länk till anmälan
-                  </Link>
-                </p>
-                <p>Ha det bäst!!</p>
-
-                <p>
-                  <Link
-                    href="https://www.facebook.com/events/539499114779663/?post_id=585273440202230&view=permalink"
-                    target="blank"
-                  >
-                    <svg
+                >
+                  <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
                       className="w-5 h-5 inline mr-1 relative -top-0.5"
-                    >
-                      <path
+                  >
+                    <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                      />
-                    </svg>
-                    Se inlägget på Facebook
-                  </Link>
-                </p>
+                    />
+                  </svg>
+                  Följ oss på Facebook
+                </Link>
+                <Link
+                    className="btn btn-purple"
+                    href="https://www.instagram.com/studentorkesterfestivalen/"
+                    target="blank"
+                >
+                  <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-5 h-5 inline mr-1 relative -top-0.5"
+                  >
+                    <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                    />
+                  </svg>
+                  Följ oss på Instagram
+                </Link>
               </div>
             </div>
           </div>
@@ -172,58 +157,6 @@ export default function Home() {
                     Några frågor?
                   </Link>
                 </p>
-              </div>
-            </div>
-
-            <div className="shadow-md bg-white rounded-sm mt-4">
-              <h2
-                className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold`}
-              >
-                Sociala Medier
-              </h2>
-              <div className="px-2 py-2">
-                <Link
-                  className="btn btn-purple mr-2 mb-2 md:mb-0"
-                  href="https://www.facebook.com/Studentorkesterfestivalen"
-                  target="blank"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="w-5 h-5 inline mr-1 relative -top-0.5"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                    />
-                  </svg>
-                  Följ oss på Facebook
-                </Link>
-                <Link
-                  className="btn btn-purple"
-                  href="https://www.instagram.com/studentorkesterfestivalen/"
-                  target="blank"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="w-5 h-5 inline mr-1 relative -top-0.5"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                    />
-                  </svg>
-                  Följ oss på Instagram
-                </Link>
               </div>
             </div>
           </div>
