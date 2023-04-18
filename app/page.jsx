@@ -72,6 +72,14 @@ export default function Home() {
               </h2>
 
               <div className="p-4">
+                <Image
+                    src="/fb.jpeg"
+                    width={45}
+                    height={45}
+                    alt="Kungputten"
+                    className="rounded-full float-right ml-4 mb-4"
+                />
+
                 <FacebookFeed />
               </div>
             </div>
