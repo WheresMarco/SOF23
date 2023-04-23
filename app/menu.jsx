@@ -373,7 +373,7 @@ export default function Menu() {
                             Kårtegeordning
                           </a>
                           <a
-                            href="/kartege/vag"
+                            href="/kartegen/vag"
                             className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow"
                           >
                             Kårtegens väg
