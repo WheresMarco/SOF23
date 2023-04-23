@@ -361,13 +361,13 @@ export default function Menu() {
                         </Disclosure.Button>
                         <Disclosure.Panel className="space-y-2 bg-gray-50 -mt-2 pt-2 rounded-b-md pb-2">
                           <a
-                            href="/kartege"
+                            href="/kartegen"
                             className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow"
                           >
                             Om Kårtegen
                           </a>
                           <a
-                            href="/kartege/kartegeordning"
+                            href="/kartegen/kartegeordning"
                             className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow"
                           >
                             Kårtegeordning
