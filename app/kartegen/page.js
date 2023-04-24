@@ -51,7 +51,7 @@ export default function Festivalen() {
 
           <Link
             className="btn btn-purple mr-2 mb-2 md:mb-0"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfWakiXstuwX0eQZGHKTWo4crOe85wP1tbzDmvZ9nWkU0IOfw/viewform"
+            href="https://forms.gle/PAWyBX76XvpdaSwR8"
             target="blank"
           >
             <svg
@@ -68,7 +68,7 @@ export default function Festivalen() {
                 d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
               />
             </svg>
-            Lämna intresseanmälan
+            Anmäl er till Kårtegen
           </Link>
 
           <p className="italic">Senast uppdaterad 13 april.</p>
