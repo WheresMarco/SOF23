@@ -63,9 +63,7 @@ export default function Jobba() {
 
           <p>Sök jobbare, så ses vi på SOF!</p>
 
-          <br />
-
-          <p className="italic">Senast uppdaterad 17 april.</p>
+          <p className="italic">Senast uppdaterad 24 april.</p>
 
           <br className="clear-both" />
         </div>

@@ -71,7 +71,7 @@ export default function Festivalen() {
             Anmäl er till Kårtegen
           </Link>
 
-          <p className="italic">Senast uppdaterad 13 april.</p>
+          <p className="italic">Senast uppdaterad 24 april.</p>
         </div>
       </div>
     </div>
