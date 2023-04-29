@@ -1,4 +1,5 @@
 import { Lora } from "@next/font/google";
+import Link from "next/link";
 
 const lora = Lora({
   subsets: ["latin"],
@@ -16,10 +17,34 @@ export default function Festivalen() {
         </h2>
         <div className="px-4 py-2">
           <p>
-            Schemat för SOF23 kommer att publiceras här så snart det är klart! Håll till godo!
+            Här hittar du schemat för festivalen. Det kan komma att uppdateras.
           </p>
 
-          <p className="italic">Senast uppdaterad 13 april.</p>
+          <p>
+            <Link
+                className="btn btn-purple mr-2 mb-2 md:mb-0"
+                href="/Spelschema_ver2.pdf"
+                target="blank"
+            >
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-5 h-5 inline mr-1 relative -top-0.5"
+              >
+                <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                />
+              </svg>
+              Spelschema
+            </Link>
+          </p>
+
+          <p className="italic">Senast uppdaterad 29 april.</p>
         </div>
       </div>
     </div>
