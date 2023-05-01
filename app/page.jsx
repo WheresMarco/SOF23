@@ -42,12 +42,8 @@ export default function Home() {
             </p>
 
             <p>
-              <Link className="btn btn-yellow mr-2" href="/balkester">
-                Balkesterinfo
-              </Link>
-
-              <Link className="btn btn-yellow" href="/kontakta-oss">
-                Kontakta oss
+              <Link className="btn btn-yellow mr-2" href="https://billio.app/event/sof" target="_blank"  rel="noreferrer">
+                Köp din biljett här!
               </Link>
             </p>
           </div>
