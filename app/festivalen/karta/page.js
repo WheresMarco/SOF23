@@ -15,9 +15,13 @@ export default function Festivalen() {
           Festivalkarta
         </h2>
         <div className="px-4 py-2">
-          <p>Karta för SOF23 kommer att publiceras här så fort den är klart. Håll till godo.</p>
+          <p>Nedan hittar ni övergripande karta för festivalen. Karta över Kårallen och scenerna kommer att publiceras inom kort.</p>
 
-          <p className="italic">Senast uppdaterad 13 april.</p>
+          <br />
+
+          <iframe src="https://www.google.com/maps/d/embed?mid=1rgFJW5y0Y24_Ewzjf39crB6R6VMuwNE&ehbc=2E312F" width="100%" height="600"></iframe>
+
+          <p className="italic">Senast uppdaterad 2 maj.</p>
         </div>
       </div>
     </div>
