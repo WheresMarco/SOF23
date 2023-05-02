@@ -44,15 +44,9 @@ export default function FragorSvar() {
           <h3 className={`${lora.className} text-xl font-semibold`}>
             När kan man köpa biljetter?
           </h3>
-          <p>
-            Anmälan för deltagare (Balkesteranmälan) öppnar den 20:e januari. Då
-            skickas en anmälningslänk ut till alla Balkesterledare. Sedan får
-            dessa förmedla ut länken till Balkestermedlemmarna. Så om du inte
-            fått någon länk kontakta din balkesterledare.
-          </p>
 
           <p>
-            För allmänheten kommer biljetterna att släppas den 1:a maj digitalt
+            Biljetterna finnas att köpa digitalt
             via{" "}
             <a
               href="https://billio.app/event/sof"
@@ -76,24 +70,35 @@ export default function FragorSvar() {
             När kommer schema för SOF?
           </h3>
           <p>
-            Schema kommer att publiceras på hemsidan och skickas till alla
-            Balkestrar i god tid innan festivalen drar igång.{" "}
+            Spelschemat är nu publicerat på hemsidan under fliken <a href="/festivalen/schema">Festivalen -{'>'} Spelschema</a>.
+          </p>
+
+          <h3 className={`${lora.className} text-xl font-semibold`}>
+            Vad är öppettiderna?
+          </h3>
+          <p>
+            På torsdagen öppnar området 20:00. På fredagen och lördagen öppnar området 18:00. Området stänger 03:00 varje dag.
+          </p>
+
+          <h3 className={`${lora.className} text-xl font-semibold`}>
+            Blir det någon familjespelning?
+          </h3>
+          <p>
+            Ja, det kommer bli en familjespelning i Trädgårdsföreningen på söndagen. Mer information kommer att publiceras inom kort.
           </p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>
             Blir det någon kårtege?
           </h3>
           <p>
-            Vi arbetar för att det ska bli en kårtege i år. Vi kommer återkomma
-            när vi vet mera.
+            Det blir en Kårtege! Mer information hittar du under fliken  <a href="/kartegen">Kårtege</a>.
           </p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>
             Kommer det bli stadsspelningar?
           </h3>
           <p>
-            Vi arbetar för att det ska ske stadsspelningar i centrala Linköping
-            på lördagen. Vi kommer återkomma när vi vet mera.
+            Yes! Det kommer att bli stadsspelningar på lördagen. Mer information kommer att publiceras inom kort.
           </p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>
