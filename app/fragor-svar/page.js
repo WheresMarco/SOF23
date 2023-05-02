@@ -84,7 +84,7 @@ export default function FragorSvar() {
             Blir det någon familjespelning?
           </h3>
           <p>
-            Ja, det kommer bli en familjespelning i Trädgårdsföreningen på söndagen. Mer information kommer att publiceras inom kort.
+            Ja, det kommer bli en familjespelning i Trädgårdsföreningen på söndagen mellan 11:00 och 15:00. Mer information kommer att publiceras inom kort.
           </p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>
