@@ -15,7 +15,7 @@ export default function Festivalen() {
           Kårtegens väg
         </h2>
         <div className="px-4 py-2">
-          <p>Det här är vägen får Kårtegen för SOF23.</p>
+          <p>Det här är vägen för Kårtegen under SOF23.</p>
 
           <iframe src="https://www.google.com/maps/d/embed?mid=1MUlLWANnBMb3DFiQaP7cjBwykb2rtbk&ehbc=2E312F" width="100%" height="600"></iframe>
 
