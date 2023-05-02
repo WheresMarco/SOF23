@@ -30,15 +30,7 @@ export default function Home() {
             <p className="px-4 md:w-2/3 m-auto mb-2">
               <strong>18 till 21 maj</strong> är det dags för nästa upplaga av
               Sveriges största Studentorkesterfestival (SOF) - som dessutom
-              firar 50 år! 1:a maj släpps biljetterna via{" "}
-              <a
-                href="https://billio.app/event/sof"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Billio
-              </a>
-              !
+              firar 50 år i år!
             </p>
 
             <p>

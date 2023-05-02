@@ -17,7 +17,7 @@ export default function Festivalen() {
         </h2>
         <div className="px-4 py-2">
           <p>
-            Här hittar du schemat för festivalen. Det kan komma att uppdateras.
+            Nedan hittar ni den senaste versionen av festivalens spelschema. Vi förväntar oss inga större ändringar även om det eventuellt kan ske mindre justeringar ända fram till festivalen.
           </p>
 
           <p>
@@ -44,7 +44,7 @@ export default function Festivalen() {
             </Link>
           </p>
 
-          <p className="italic">Senast uppdaterad 29 april.</p>
+          <p className="italic">Senast uppdaterad 2 maj.</p>
         </div>
       </div>
     </div>

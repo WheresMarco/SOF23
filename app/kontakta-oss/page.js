@@ -52,13 +52,13 @@ export default function KontaktaOss() {
           email="spons@sof23.se"
         />
         <Person
-          image="/kommitte/no.jpg"
+          image="/kommitte/john.webp"
           name="John Sköldestig"
           title="Kårtegeansvarig"
           email="kortege@sof23.se"
         />
         <Person
-          image="/kommitte/no.jpg"
+          image="/kommitte/molly.webp"
           name="Molly Hilding Södergren"
           title="Personal"
           email="personal@sof23.se"
@@ -94,7 +94,7 @@ export default function KontaktaOss() {
           email="servering@sof23.se"
         />
         <Person
-          image="/kommitte/no.jpg"
+          image="/kommitte/rasmus.webp"
           name="Rasmus Wildt-Persson"
           title="Sov"
           email="sov@sof23.se"
