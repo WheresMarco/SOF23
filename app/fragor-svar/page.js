@@ -164,7 +164,7 @@ export default function FragorSvar() {
             -sidan.
           </p>
 
-          <p className="italic">Senast uppdaterad 13 april.</p>
+          <p className="italic">Senast uppdaterad 2 maj.</p>
         </div>
       </div>
     </div>
