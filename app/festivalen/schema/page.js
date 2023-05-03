@@ -1,5 +1,6 @@
 import { Lora } from "@next/font/google";
 import Link from "next/link";
+import Image from "next/image";
 
 const lora = Lora({
   subsets: ["latin"],
@@ -40,11 +41,27 @@ export default function Festivalen() {
                     d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
                 />
               </svg>
-              Spelschema
+              Spelschema för scenerna på Kårallen
             </Link>
           </p>
 
-          <p className="italic">Senast uppdaterad 2 maj.</p>
+          <Image
+              src="/stadsspelningar.jpg"
+              width={800}
+              height={419}
+              alt="Stadsspelningar"
+              className="pb-4 pt-4"
+          />
+
+          <Image
+              src="/familjespelningar.jpg"
+              width={500}
+              height={547}
+              alt="Familjespelningar"
+              className="pb-4"
+          />
+
+          <p className="italic">Senast uppdaterad 3 maj.</p>
         </div>
       </div>
     </div>
