@@ -1,8 +1,6 @@
-"use client";
 import { Lora } from "@next/font/google";
 import Image from "next/image";
 import Link from "next/link";
-import FacebookFeed from './components/feed';
 
 const lora = Lora({
   subsets: ["latin"],
@@ -52,23 +50,33 @@ export default function Home() {
       <div className="px-2 md:px-0">
         <section className="md:container md:mx-auto md:grid md:grid-cols-2 md:space-x-8 py-4 md:py-12">
           <div>
-            <div className="shadow-md bg-white rounded-sm mb-4">
+            <div className="shadow-md bg-white rounded-sm">
               <h2
-                className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold flex justify-between items-center`}
+                  className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold`}
               >
-                <span>Senaste nytt från Facebook</span>
+                Vad är SOF?
               </h2>
+              <div className="px-4 py-2">
+                <p>
+                  Både SOF och STORK står för “Studentorkesterfestivalen” och är
+                  det som äger rum i maj varje år och som alla studentorkestrar-
+                  och baletter längtar efter. Ojämna år hålls den i Linköping
+                  under namnet SOF, och jämna år i Uppsala men kallas då STORK.
+                  Under dagarna tre (eller möjligen fyra) spelar, dansar,
+                  festar, kårtegar och hänger vi med varandra.
+                </p>
+                <p>
+                  I år kommer festivalen att pågå mellan torsdagen den 18:e maj
+                  till och med söndagen 21:a maj. Vi kommer att vara på plats i
+                  Kårallen i Linköping, med lite utstick på stan för
+                  stadspelningar.
+                </p>
 
-              <div className="p-4">
-                <Image
-                    src="/fb.jpeg"
-                    width={45}
-                    height={45}
-                    alt="Kungputten"
-                    className="rounded-full float-right ml-4 mb-4"
-                />
-
-                <FacebookFeed />
+                <p>
+                  <Link className="btn btn-purple" href="/fragor-svar">
+                    Har du frågor? Vi har svar!
+                  </Link>
+                </p>
               </div>
             </div>
 
@@ -79,6 +87,8 @@ export default function Home() {
                 Sociala Medier
               </h2>
               <div className="px-2 py-2">
+                <p className="mb-3">För den senaste information följ oss på våra sociala medier.</p>
+
                 <Link
                     className="btn btn-purple mr-2 mb-2 md:mb-0"
                     href="https://www.facebook.com/Studentorkesterfestivalen"
@@ -128,29 +138,54 @@ export default function Home() {
           <div>
             <div className="shadow-md bg-white rounded-sm">
               <h2
-                className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold`}
+                  className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold`}
               >
-                Vad är SOF?
+                SOF23 i Korthet
               </h2>
               <div className="px-4 py-2">
                 <p>
-                  Både SOF och STORK står för “Studentorkesterfestivalen” och är
-                  det som äger rum i maj varje år och som alla studentorkestrar-
-                  och baletter längtar efter. Ojämna år hålls den i Linköping
-                  under namnet SOF, och jämna år i Uppsala men kallas då STORK.
-                  Under dagarna tre (eller möjligen fyra) spelar, dansar,
-                  festar, kårtegar och hänger vi med varandra.
+                  <strong>Torsdag</strong>
                 </p>
-                <p>
-                  I år kommer festivalen att pågå mellan torsdagen den 18:e maj
-                  till och med söndagen 21:a maj. Vi kommer att vara på plats i
-                  Kårallen i Linköping, med lite utstick på stan för
-                  stadspelningar.
-                </p>
+                <ul>
+                  <li>15:00 - 18:00 Torsdagskröken (pub). Öppen för allmänheten.</li>
+                  <li>18:00 Balkestersittning (området är stängt under tiden)</li>
+                  <li>20:00 Området öppnar</li>
+                  <li>03:00 Området stänger</li>
+                </ul>
 
                 <p>
-                  <Link className="btn btn-purple" href="/fragor-svar">
-                    Några frågor?
+                  <strong>Fredag</strong>
+                </p>
+                <ul>
+                  <li>15:00 - 18:00 Pub på festivalområdet. Öppen för allmänheten.</li>
+                  <li>18:00 Området öppnar</li>
+                  <li>03:00 Området stänger</li>
+                </ul>
+
+                <p>
+                  <strong>Lördag</strong>
+                </p>
+                <ul>
+                  <li>10:00 - 13:00 Stadsspelningar</li>
+                  <li>13:00 - 15:00 Kårtege genom stan</li>
+                  <li>18:00 Området öppnar</li>
+                  <li>03:00 Området stänger</li>
+                </ul>
+
+                <p>
+                  <strong>Söndag</strong>
+                </p>
+                <ul>
+                  <li>11:00 - 15:00 Familjespelningar i Trädgårdsföreningen. Öppen för allmänheten.</li>
+                </ul>
+
+                <p className="mt-3">
+                  <Link className="btn btn-purple" href="/festivalen/schema">
+                    Spelschema
+                  </Link>
+
+                  <Link className="btn btn-purple ml-2" href="/kartegen/vag">
+                    Kårtegevägen
                   </Link>
                 </p>
               </div>
