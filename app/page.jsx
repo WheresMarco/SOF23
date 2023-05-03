@@ -143,7 +143,7 @@ export default function Home() {
                 SOF23 i Korthet
               </h2>
               <div className="px-4 py-2">
-                <p>
+                <p className="-mb-2">
                   <strong>Torsdag</strong>
                 </p>
                 <ul>
@@ -153,7 +153,7 @@ export default function Home() {
                   <li>03:00 Området stänger</li>
                 </ul>
 
-                <p>
+                <p className="-mb-2">
                   <strong>Fredag</strong>
                 </p>
                 <ul>
@@ -162,7 +162,7 @@ export default function Home() {
                   <li>03:00 Området stänger</li>
                 </ul>
 
-                <p>
+                <p className="-mb-2">
                   <strong>Lördag</strong>
                 </p>
                 <ul>
@@ -172,7 +172,7 @@ export default function Home() {
                   <li>03:00 Området stänger</li>
                 </ul>
 
-                <p>
+                <p className="-mb-2">
                   <strong>Söndag</strong>
                 </p>
                 <ul>
