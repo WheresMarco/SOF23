@@ -148,8 +148,8 @@ export default function Home() {
                 </p>
                 <ul>
                   <li>15:00 - 18:00 Torsdagskröken (pub). Öppen för allmänheten.</li>
-                  <li>18:00 - 20:00 Balkestersittning (området är stängt under tiden)</li>
-                  <li>20:00 Området öppnar</li>
+                  <li>18:00 - 21:00 Balkestersittning (området är stängt under tiden)</li>
+                  <li>21:00 Området öppnar</li>
                   <li>03:00 Området stänger</li>
                 </ul>
 
