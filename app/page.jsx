@@ -166,8 +166,8 @@ export default function Home() {
                   <strong>Lördag</strong>
                 </p>
                 <ul>
-                  <li>10:00 - 13:00 Stadsspelningar</li>
-                  <li>13:00 - 15:00 Kårtege genom stan</li>
+                  <li>10:00 - 13:00 Stadsspelningar (Inget biljett krävs)/li>
+                  <li>13:00 - 15:00 Kårtege genom stan (Inget biljett krävs)</li>
                   <li>18:00 Området öppnar</li>
                   <li>03:00 Området stänger</li>
                 </ul>
