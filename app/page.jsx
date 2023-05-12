@@ -147,7 +147,7 @@ export default function Home() {
                   <strong>Torsdag</strong>
                 </p>
                 <ul>
-                  <li>15:00 - 18:00 Torsdagskröken (pub). Öppen för allmänheten.</li>
+                  <li>15:00 - 18:00 Torsdagskröken (pub). (Inget biljett krävs).</li>
                   <li>18:00 - 21:00 Balkestersittning (området är stängt under tiden)</li>
                   <li>21:00 Området öppnar</li>
                   <li>03:00 Området stänger</li>
@@ -157,7 +157,7 @@ export default function Home() {
                   <strong>Fredag</strong>
                 </p>
                 <ul>
-                  <li>15:00 - 18:00 Pub på festivalområdet. Öppen för allmänheten.</li>
+                  <li>15:00 - 18:00 Pub på festivalområdet. (Inget biljett krävs).</li>
                   <li>18:00 Området öppnar</li>
                   <li>03:00 Området stänger</li>
                 </ul>
@@ -176,7 +176,7 @@ export default function Home() {
                   <strong>Söndag</strong>
                 </p>
                 <ul>
-                  <li>11:00 - 15:00 Familjespelningar i Trädgårdsföreningen. Öppen för allmänheten.</li>
+                  <li>11:00 - 15:00 Familjespelningar i Trädgårdsföreningen. (Inget biljett krävs).</li>
                 </ul>
 
                 <p className="mt-3">
