@@ -149,7 +149,14 @@ export default function Menu() {
                           href="/balkester"
                           className="block font-semibold text-black p-2 hover:no-underline hover:bg-royal-yellow rounded-md"
                         >
-                          Information
+                          Allmänt
+                        </Link>
+
+                        <Link
+                            href="/balkester/intern-info"
+                            className="block font-semibold text-black p-2 hover:no-underline hover:bg-royal-yellow rounded-md"
+                        >
+                          Balkesterinformation
                         </Link>
 
                         <Link
@@ -332,7 +339,14 @@ export default function Menu() {
                             href="/balkester"
                             className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow"
                           >
-                            Information
+                            Allmänt
+                          </a>
+
+                          <a
+                              href="/balkester/intern-info"
+                              className="block font-semibold text-black p-1 pl-3 hover:no-underline hover:bg-royal-yellow"
+                          >
+                            Balkesterinformation
                           </a>
 
                           <a
