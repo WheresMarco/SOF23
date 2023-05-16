@@ -77,7 +77,7 @@ export default function FragorSvar() {
             Vad är öppettiderna?
           </h3>
           <p>
-            På torsdagen öppnar området 20:00. På fredagen och lördagen öppnar området 18:00. Området stänger 03:00 varje dag.
+            På torsdagen öppnar området 21:00. På fredagen och lördagen öppnar området 18:00. Området stänger 03:00 varje dag.
           </p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>
