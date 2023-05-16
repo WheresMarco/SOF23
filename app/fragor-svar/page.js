@@ -81,10 +81,24 @@ export default function FragorSvar() {
           </p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>
+            Vilka är välkommna?
+          </h3>
+          <p>
+            Alla är välkommna att komma på SOF och ha kul med oss. Biljetter köper du på <a href="https://billio.app/event/sof" target="_blank" rel="noreferrer">Billio</a>.
+          </p>
+
+          <h3 className={`${lora.className} text-xl font-semibold`}>
+            Vad är klädkoden?
+          </h3>
+          <p>
+            Kom som du är! Om du är en balkesterdeltagare så passar balkesteruniform utmärkt, eller overall om du har det. Annars är det fritt fram att klä sig som du vill.
+          </p>
+
+          <h3 className={`${lora.className} text-xl font-semibold`}>
             Blir det någon familjespelning?
           </h3>
           <p>
-            Ja, det kommer bli en familjespelning i Trädgårdsföreningen på söndagen mellan 11:00 och 15:00. Mer information kommer att publiceras inom kort.
+            Ja, det kommer bli en familjespelning i Trädgårdsföreningen på söndagen mellan 11:00 och 15:00. Spelschema hittar du under fliken <a href="/festivalen/schema">Schema</a>.
           </p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>
@@ -98,7 +112,7 @@ export default function FragorSvar() {
             Kommer det bli stadsspelningar?
           </h3>
           <p>
-            Yes! Det kommer att bli stadsspelningar på lördagen. Mer information kommer att publiceras inom kort.
+            Yes! Det kommer att bli stadsspelningar på lördagen. Spelschema hittar du under fliken <a href="/festivalen/schema">Schema</a>.
           </p>
 
           <h3 className={`${lora.className} text-xl font-semibold`}>
@@ -164,7 +178,7 @@ export default function FragorSvar() {
             -sidan.
           </p>
 
-          <p className="italic">Senast uppdaterad 2 maj.</p>
+          <p className="italic">Senast uppdaterad 16 maj.</p>
         </div>
       </div>
     </div>
