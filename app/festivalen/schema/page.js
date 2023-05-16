@@ -90,7 +90,7 @@ export default function Festivalen() {
           </p>
 
 
-          <p className="italic">Senast uppdaterad 15 maj.</p>
+          <p className="italic">Senast uppdaterad 16 maj.</p>
         </div>
       </div>
     </div>
