@@ -44,34 +44,11 @@ export default function Festivalen() {
 
           <p>
             Byggnadsmatrial som kommer att finnas på plats, men mer specefikt
-            material kan man behöva införskaffa på egen hand. Bestäm ett projekt
-            tillsammans med ditt gäng, intresseanmäl, och så kommer mer info
-            sedan.
+            material kan man behöva införskaffa på egen hand.
           </p>
 
-          <Link
-            className="btn btn-purple mr-2 mb-2 md:mb-0"
-            href="https://forms.gle/PAWyBX76XvpdaSwR8"
-            target="blank"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-5 h-5 inline mr-1 relative -top-0.5"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-              />
-            </svg>
-            Anmäl er till Kårtegen
-          </Link>
-
-          <p className="italic">Senast uppdaterad 24 april.</p>
+          <p className="italic">Senast uppdaterad 16 maj.</p>
+          <br /><br />
         </div>
       </div>
     </div>
