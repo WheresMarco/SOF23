@@ -24,7 +24,7 @@ export default function Festivalen() {
           <p>
             <Link
                 className="btn btn-purple mr-2 mb-2 md:mb-0"
-                href="/Spelschema_ver2.pdf"
+                href="/Spelschema_ver2.pdf?16"
                 target="blank"
             >
               <svg
@@ -46,7 +46,7 @@ export default function Festivalen() {
 
             <Link
                 className="btn btn-purple mr-2 mb-2 md:mb-0"
-                href="/lordag.pdf"
+                href="/lordag.pdf?16"
                 target="blank"
             >
               <svg
@@ -68,7 +68,7 @@ export default function Festivalen() {
 
             <Link
                 className="btn btn-purple mr-2 mb-2 md:mb-0"
-                href="/sondag.pdf"
+                href="/sondag.pdf?16"
                 target="blank"
             >
               <svg
