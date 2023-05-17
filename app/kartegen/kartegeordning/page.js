@@ -49,71 +49,61 @@ export default function Festivalen() {
             </tr>
             <tr>
                 <td>6</td>
-                <td>M-pire</td>
-                <td>Kårtege-bygge</td>
-            </tr>
-            <tr>
-                <td>7</td>
                 <td>Ostgöta Nationskapell</td>
                 <td>Balkester</td>
             </tr>
             <tr>
-                <td>8</td>
+                <td>7</td>
                 <td>ab Kruthornen & Letta Gardet</td>
                 <td>Balkester</td>
             </tr>
             <tr>
-                <td>9</td>
+                <td>8</td>
                 <td>M-verkstan</td>
                 <td>Kårtege-bygge</td>
             </tr>
             <tr>
-                <td>10</td>
+                <td>9</td>
                 <td>Allianceorchestret & Chalmersbaletten</td>
                 <td>Balkester</td>
             </tr>
             <tr>
-                <td>11</td>
+                <td>10</td>
                 <td>Alte Kamereren & Kamérbaletten</td>
                 <td>Balkester</td>
             </tr>
             <tr>
-                <td>12</td>
-                <td>Klassföräldrarna</td>
-                <td>Kårtege-bygge</td>
-            </tr>
-            <tr>
-                <td>13</td>
+                <td>11</td>
                 <td>Humpsvakar & Rumpskakar</td>
                 <td>Balkester</td>
             </tr>
             <tr>
-                <td>14</td>
+                <td>12</td>
                 <td>Patriciabaletten</td>
                 <td>Balett</td>
             </tr>
             <tr>
-                <td>15</td>
+                <td>13</td>
                 <td>Mistluren & Mistlåhren</td>
                 <td>Balkester</td>
             </tr>
             <tr>
-                <td>16</td>
+                <td>14</td>
                 <td>Munchen-Hoben</td>
                 <td>Kårtege-bygge</td>
             </tr>
             <tr>
-                <td>17</td>
+                <td>15</td>
                 <td>Bleckhornen & Baletten</td>
                 <td>Balkester</td>
             </tr>
             <tr>
-                <td>18</td>
+                <td>16</td>
                 <td>Snösvänget & Sparketten</td>
                 <td>Balkester</td>
             </tr>
             <tr>
-                <td>19</td>
+                <td>17</td>
                 <td>Bonnkapälle</td>
                 <td>Annat</td>
             </tr>
