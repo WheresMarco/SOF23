@@ -184,8 +184,16 @@ export default function Home() {
                     Spelschema
                   </Link>
 
+                  <Link className="btn btn-purple ml-2" href="/festivalen/karta">
+                    Områdeskartor
+                  </Link>
+
                   <Link className="btn btn-purple ml-2" href="/kartegen/vag">
                     Kårtegevägen
+                  </Link>
+
+                  <Link className="btn btn-purple ml-2" href="/kartegen/kartegeordning">
+                    Kårtegeordningen
                   </Link>
                 </p>
               </div>

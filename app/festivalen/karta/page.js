@@ -90,7 +90,7 @@ export default function Festivalen() {
 
           <iframe src="https://www.google.com/maps/d/embed?mid=1rgFJW5y0Y24_Ewzjf39crB6R6VMuwNE&ehbc=2E312F" width="100%" height="600"></iframe>
 
-          <p className="italic">Senast uppdaterad 2 maj.</p>
+          <p className="italic">Senast uppdaterad 17 maj.</p>
         </div>
       </div>
     </div>
