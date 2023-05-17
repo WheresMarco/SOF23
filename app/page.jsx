@@ -80,7 +80,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="shadow-md bg-white rounded-sm mt-4">
+            <div className="shadow-md bg-white rounded-sm mt-4 mb-4">
               <h2
                   className={`${lora.className} text-3xl text-royal-yellow bg-wallpaper p-3 rounded-t-sm font-semibold`}
               >
