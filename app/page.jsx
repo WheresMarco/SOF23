@@ -23,12 +23,11 @@ export default function Home() {
             <h1
               className={`${lora.className} text-6xl 2xl:text-9xl mb-4 md:mb-8 font-semibold`}
             >
-              Tagga SOF!
+              Nu är vi igång!
             </h1>
             <p className="px-4 md:w-2/3 m-auto mb-2">
-              <strong>18 till 21 maj</strong> är det dags för nästa upplaga av
-              Sveriges största Studentorkesterfestival (SOF) - som dessutom
-              firar 50 år i år!
+              Nu pågår Sveriges största Studentorkesterfestival (SOF) (som dessutom
+              firar 50 år i år!). Det finns fortfarande biljetter och många nya minnen kvar att uppleva!
             </p>
 
             <p>
