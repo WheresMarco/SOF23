@@ -23,16 +23,19 @@ export default function Home() {
             <h1
               className={`${lora.className} text-6xl 2xl:text-9xl mb-4 md:mb-8 font-semibold`}
             >
-              Nu är vi igång!
+              Tack för ett fantastiskt SOF!
             </h1>
             <p className="px-4 md:w-2/3 m-auto mb-2">
-              Nu pågår Sveriges största Studentorkesterfestival (SOF) (som dessutom
-              firar 50 år i år!). Det finns fortfarande biljetter och många nya minnen kvar att uppleva!
+              Vi vill tacka alla som var med och gjorde SOF23 till en otrolig folkfest! Vi ses på STORK24!
             </p>
 
             <p>
-              <Link className="btn btn-yellow mr-2" href="https://billio.app/event/sof" target="_blank"  rel="noreferrer">
-                Köp din biljett här!
+              <Link className="btn btn-yellow mr-2" href="https://www.facebook.com/Studentorkesterfestivalen" target="_blank"  rel="noreferrer">
+                Följ oss på Facebok
+              </Link>
+
+              <Link className="btn btn-yellow mr-2" href="https://www.instagram.com/studentorkesterfestivalen/" target="_blank"  rel="noreferrer">
+                Följ oss på Instagram
               </Link>
             </p>
           </div>
